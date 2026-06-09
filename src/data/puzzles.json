@@ -170,15 +170,15 @@
 
   "2026-06-16": {
     "grid": [
-      ["NET","WORK","BENCH","YARD"],
-      ["BACK","SIDE","MARK","BOARD"],
-      ["FIRE","SHOP","DOWN","STAGE"],
-      ["HAND","CRAFT","TOWN","SHIP"]
+      ["SUN","SHINE","HOOD","FLOWER"],
+      ["BURN","RING","BOY","SCREEN"],
+      ["OUT","DOOR","BELL","LAMP"],
+      ["STEP","SCOUT","HOUSE","TOWER"]
     ],
     "start": [0,0],
-    "end": [3,3],
-    "solution": [[0,0],[0,1],[0,2],[1,2],[2,2],[3,2],[3,3]],
-    "connections": [["NET","WORK"],["WORK","BENCH"],["BENCH","MARK"],["MARK","DOWN"],["DOWN","TOWN"],["TOWN","SHIP"]]
+    "end": [0,2],
+    "solution": [[0,0],[1,0],[2,0],[2,1],[2,2],[1,2],[0,2]],
+    "connections": [["SUN","BURN"],["BURN","OUT"],["OUT","DOOR"],["DOOR","BELL"],["BELL","BOY"],["BOY","HOOD"]]
   },
 
   "2026-06-17": {
@@ -209,28 +209,28 @@
 
   "2026-06-19": {
     "grid": [
-      ["SHIP","WORK","ROAD","CROSS"],
-      ["YARD","BENCH","MARK","SIDE"],
-      ["BACK","FIRE","DOWN","STAGE"],
-      ["HAND","BOARD","TOWN","LINE"]
+      ["LINE","PUNCH","HOLE","MAN"],
+      ["LONG","SHOT","GUN","CHAIR"],
+      ["DOWN","RING","BELL","ARM"],
+      ["SIDE","STEP","DOOR","FIRE"]
     ],
-    "start": [0,3],
-    "end": [3,2],
-    "solution": [[0,3],[0,2],[0,1],[1,1],[1,2],[2,2],[3,2]],
-    "connections": [["CROSS","ROAD"],["ROAD","WORK"],["WORK","BENCH"],["BENCH","MARK"],["MARK","DOWN"],["DOWN","TOWN"]]
+    "start": [3,3],
+    "end": [0,0],
+    "solution": [[3,3],[2,3],[1,3],[0,3],[0,2],[0,1],[0,0]],
+    "connections": [["FIRE","ARM"],["ARM","CHAIR"],["CHAIR","MAN"],["MAN","HOLE"],["HOLE","PUNCH"],["PUNCH","LINE"]]
   },
 
   "2026-06-20": {
     "grid": [
-      ["LONG","SHOT","BOARD","MARK"],
-      ["DOWN","GUN","YARD","BACK"],
-      ["TOWN","FIRE","SIDE","SHIP"],
-      ["BENCH","CRAFT","WALK","OUT"]
+      ["BEAT","DRUM","STICK","TOWN"],
+      ["STEP","STONE","WALL","UP"],
+      ["LONG","SHOT","RING","HOLD"],
+      ["BUTTER","FLY","WHEEL","HOUSE"]
     ],
-    "start": [0,0],
-    "end": [3,3],
-    "solution": [[0,0],[0,1],[1,1],[2,1],[2,2],[3,2],[3,3]],
-    "connections": [["LONG","SHOT"],["SHOT","GUN"],["GUN","FIRE"],["FIRE","SIDE"],["SIDE","WALK"],["WALK","OUT"]]
+    "start": [3,0],
+    "end": [0,3],
+    "solution": [[3,0],[3,1],[3,2],[3,3],[2,3],[1,3],[0,3]],
+    "connections": [["BUTTER","FLY"],["FLY","WHEEL"],["WHEEL","HOUSE"],["HOUSE","HOLD"],["HOLD","UP"],["UP","TOWN"]]
   },
 
   "2026-06-21": {
@@ -287,15 +287,15 @@
 
   "2026-06-25": {
     "grid": [
-      ["BACK","YARD","WORK","OUT"],
-      ["SHIP","TOWN","BENCH","DOOR"],
-      ["CRAFT","SIDE","FIRE","STEP"],
-      ["DOWN","MARK","LAND","FATHER"]
+      ["RING","SONG","BIRD","THUNDER"],
+      ["BELL","DOOR","STEP","CLAP"],
+      ["STORM","WAVE","HOUSE","BOARD"],
+      ["HOLE","MAN","SERVICE","ROOM"]
     ],
     "start": [0,3],
     "end": [3,0],
     "solution": [[0,3],[1,3],[2,3],[3,3],[3,2],[3,1],[3,0]],
-    "connections": [["OUT","DOOR"],["DOOR","STEP"],["STEP","FATHER"],["FATHER","LAND"],["LAND","MARK"],["MARK","DOWN"]]
+    "connections": [["THUNDER","CLAP"],["CLAP","BOARD"],["BOARD","ROOM"],["ROOM","SERVICE"],["SERVICE","MAN"],["MAN","HOLE"]]
   },
 
   "2026-06-26": {
@@ -352,15 +352,15 @@
 
   "2026-06-30": {
     "grid": [
-      ["PAPER","SIDE","DOWN","TOWN"],
-      ["BACK","FIRE","MARK","SHIP"],
-      ["YARD","WORK","BENCH","BOARD"],
-      ["CRAFT","WALK","WAY","OUT"]
+      ["LIFE","GUARD","RAIL","ROAD"],
+      ["TIME","LONG","SHORT","BLOCK"],
+      ["BOAT","RING","HOUSE","HEAD"],
+      ["BELL","DOOR","STEP","LINE"]
     ],
     "start": [0,0],
-    "end": [0,2],
-    "solution": [[0,0],[1,0],[2,0],[2,1],[2,2],[1,2],[0,2]],
-    "connections": [["PAPER","BACK"],["BACK","YARD"],["YARD","WORK"],["WORK","BENCH"],["BENCH","MARK"],["MARK","DOWN"]]
+    "end": [3,3],
+    "solution": [[0,0],[0,1],[0,2],[0,3],[1,3],[2,3],[3,3]],
+    "connections": [["LIFE","GUARD"],["GUARD","RAIL"],["RAIL","ROAD"],["ROAD","BLOCK"],["BLOCK","HEAD"],["HEAD","LINE"]]
   },
 
   "2026-07-01": {

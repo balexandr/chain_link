@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import puzzles from '../data/puzzles.json';
 
 const STORAGE_KEY = 'chain-link-game-state';
-const EPOCH = '2026-06-03';
+const EPOCH = '2026-06-09';
 
 function getTodayKey() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
