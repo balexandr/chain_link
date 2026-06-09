@@ -1,0 +1,279 @@
+/* ── Outer stone frame ─────────────────────────────────────────── */
+.boardFrame {
+  position: relative;
+  margin-top: 10px;
+  padding: 18px;
+  border-radius: 20px;
+
+  /* Thick carved-stone surround */
+  background:
+    /* Fine diagonal grain lines */
+    repeating-linear-gradient(
+      67deg,
+      transparent 0px, transparent 5px,
+      rgba(255,255,255,0.012) 5px, rgba(255,255,255,0.012) 6px
+    ),
+    repeating-linear-gradient(
+      157deg,
+      transparent 0px, transparent 8px,
+      rgba(0,0,0,0.06) 8px, rgba(0,0,0,0.06) 9px
+    ),
+    linear-gradient(145deg, #2c273f 0%, #201c30 40%, #17141f 100%);
+
+  box-shadow:
+    /* Outer purple ambient */
+    0 0 0 1px rgba(168, 85, 247, 0.18),
+    0 0 0 3px rgba(30, 20, 50, 0.8),
+    0 0 0 4px rgba(168, 85, 247, 0.07),
+    /* Depth */
+    0 20px 60px rgba(0,0,0,0.75),
+    0 8px 24px rgba(0,0,0,0.5),
+    /* Top highlight (light hitting stone edge) */
+    inset 0 2px 0 rgba(255,255,255,0.09),
+    inset 0 -2px 0 rgba(0,0,0,0.5),
+    inset 2px 0 0 rgba(255,255,255,0.04),
+    inset -2px 0 0 rgba(0,0,0,0.3);
+}
+
+/* Corner rune symbols */
+.corner {
+  position: absolute;
+  font-size: 1rem;
+  line-height: 1;
+  color: #a855f7;
+  opacity: 0.6;
+  pointer-events: none;
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.8), 0 0 20px rgba(168, 85, 247, 0.4);
+  animation: runeGlow 3s ease-in-out infinite;
+}
+
+.tl { top: 7px;  left: 7px; }
+.tr { top: 7px;  right: 7px; }
+.bl { bottom: 7px; left: 7px; }
+.br { bottom: 7px; right: 7px; }
+
+.tr, .bl { animation-delay: 1.5s; }
+
+@keyframes runeGlow {
+  0%, 100% { opacity: 0.55; text-shadow: 0 0 8px rgba(168,85,247,0.7); }
+  50%       { opacity: 0.85; text-shadow: 0 0 14px rgba(168,85,247,1), 0 0 28px rgba(168,85,247,0.5); }
+}
+
+/* ── Playing surface ────────────────────────────────────────────── */
+.gridWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  border-radius: 12px;
+  overflow: hidden;
+
+  /* Stone slab surface */
+  background:
+    /* Faint irregular crack lines */
+    repeating-linear-gradient(
+      83deg,
+      transparent 0px, transparent 70px,
+      rgba(0,0,0,0.07) 70px, rgba(0,0,0,0.07) 71px
+    ),
+    repeating-linear-gradient(
+      171deg,
+      transparent 0px, transparent 90px,
+      rgba(0,0,0,0.05) 90px, rgba(0,0,0,0.05) 91px
+    ),
+    /* Vignette: darker edges, lighter center */
+    radial-gradient(ellipse at center, #1d1a2e 0%, #110e1c 60%, #0a0812 100%);
+
+  box-shadow:
+    inset 0 3px 14px rgba(0,0,0,0.6),
+    inset 0 -3px 8px rgba(0,0,0,0.4),
+    inset 3px 0 8px rgba(0,0,0,0.3),
+    inset -3px 0 8px rgba(0,0,0,0.3);
+}
+
+/* ── SVG path ───────────────────────────────────────────────────── */
+.pathSvg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pathLine {
+  stroke: #c084fc;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  opacity: 0.75;
+  filter:
+    drop-shadow(0 0 4px #a855f7)
+    drop-shadow(0 0 12px rgba(168, 85, 247, 0.6))
+    drop-shadow(0 0 24px rgba(168, 85, 247, 0.25));
+}
+
+.pathLineWon {
+  stroke: var(--correct);
+  opacity: 0.9;
+  filter:
+    drop-shadow(0 0 4px var(--correct))
+    drop-shadow(0 0 12px rgba(74, 222, 128, 0.5))
+    drop-shadow(0 0 24px rgba(74, 222, 128, 0.2));
+}
+
+/* ── 4×4 grid ───────────────────────────────────────────────────── */
+.grid {
+  position: absolute;
+  inset: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 7px;
+}
+
+/* ── Cell base ──────────────────────────────────────────────────── */
+.cell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  overflow: hidden;
+  z-index: 1;
+  cursor: default;
+  transition: filter 0.12s, transform 0.08s;
+
+  /* Stone block face: lit from top-left */
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.035) 0%, transparent 50%),
+    linear-gradient(160deg, #231f35 0%, #19162a 60%, #131020 100%);
+
+  /* Multi-layer bevel to simulate physical depth */
+  box-shadow:
+    /* Top-left raised edge (light) */
+    inset 1px 1px 0 rgba(255,255,255,0.10),
+    /* Bottom-right recessed edge (shadow) */
+    inset -1px -1px 0 rgba(0,0,0,0.45),
+    /* Inner depth */
+    inset 0 2px 6px rgba(0,0,0,0.35),
+    inset 0 -2px 4px rgba(0,0,0,0.2),
+    /* Outer drop */
+    0 3px 10px rgba(0,0,0,0.55);
+
+  border: 1px solid rgba(168, 85, 247, 0.1);
+}
+
+.cell:hover:not([class*="Start"]):not([class*="End"]) {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+  border-color: rgba(168, 85, 247, 0.25);
+}
+
+/* START cell */
+.cellStart {
+  background:
+    linear-gradient(135deg, rgba(34,197,94,0.12) 0%, transparent 50%),
+    linear-gradient(160deg, #0f2a18 0%, #09190f 100%);
+  border-color: rgba(34, 197, 94, 0.45);
+  box-shadow:
+    inset 1px 1px 0 rgba(34,197,94,0.15),
+    inset -1px -1px 0 rgba(0,0,0,0.4),
+    inset 0 2px 6px rgba(0,0,0,0.3),
+    0 0 12px rgba(34, 197, 94, 0.12),
+    0 3px 10px rgba(0,0,0,0.5);
+}
+
+/* END cell */
+.cellEnd {
+  background:
+    linear-gradient(135deg, rgba(239,68,68,0.12) 0%, transparent 50%),
+    linear-gradient(160deg, #2a0f0f 0%, #190909 100%);
+  border-color: rgba(239, 68, 68, 0.45);
+  box-shadow:
+    inset 1px 1px 0 rgba(239,68,68,0.12),
+    inset -1px -1px 0 rgba(0,0,0,0.4),
+    inset 0 2px 6px rgba(0,0,0,0.3),
+    0 0 12px rgba(239, 68, 68, 0.12),
+    0 3px 10px rgba(0,0,0,0.5);
+}
+
+/* Active path cell */
+.cellPath {
+  background:
+    linear-gradient(135deg, rgba(168,85,247,0.2) 0%, transparent 50%),
+    linear-gradient(160deg, #2a1f45 0%, #1c1535 100%);
+  border-color: rgba(168, 85, 247, 0.55);
+  box-shadow:
+    inset 1px 1px 0 rgba(168,85,247,0.2),
+    inset -1px -1px 0 rgba(0,0,0,0.35),
+    inset 0 2px 8px rgba(0,0,0,0.25),
+    0 0 16px rgba(168, 85, 247, 0.25),
+    0 3px 10px rgba(0,0,0,0.5);
+  animation: cellPop 0.16s ease both;
+  z-index: 3;
+}
+
+/* Won cells */
+.cellWon {
+  background:
+    linear-gradient(135deg, rgba(74,222,128,0.15) 0%, transparent 50%),
+    linear-gradient(160deg, #0f2a18 0%, #09190f 100%);
+  border-color: rgba(74, 222, 128, 0.5);
+  box-shadow:
+    inset 1px 1px 0 rgba(74,222,128,0.15),
+    inset -1px -1px 0 rgba(0,0,0,0.3),
+    0 0 14px rgba(74, 222, 128, 0.2),
+    0 3px 10px rgba(0,0,0,0.5);
+}
+
+/* ── Cell word ──────────────────────────────────────────────────── */
+.cellWord {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(0.6rem, 2.6vw, 0.82rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #9b92c8;
+  text-transform: uppercase;
+  line-height: 1.1;
+  pointer-events: none;
+  /* Engraved look: shadow below + subtle highlight above */
+  text-shadow:
+    0 1px 3px rgba(0,0,0,0.9),
+    0 -1px 0 rgba(255,255,255,0.05);
+}
+
+.cellStart .cellWord {
+  color: #6ee7a0;
+  text-shadow: 0 0 10px rgba(34,197,94,0.5), 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.cellEnd .cellWord {
+  color: #fca5a5;
+  text-shadow: 0 0 10px rgba(239,68,68,0.5), 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.cellPath .cellWord {
+  color: #d8b4fe;
+  text-shadow: 0 0 10px rgba(168,85,247,0.7), 0 1px 2px rgba(0,0,0,0.8);
+}
+
+.cellWon .cellWord {
+  color: #86efac;
+  text-shadow: 0 0 10px rgba(74,222,128,0.6), 0 1px 2px rgba(0,0,0,0.8);
+}
+
+/* START / END badge */
+.cellBadge {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.34rem, 1.2vw, 0.44rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin-top: 3px;
+  pointer-events: none;
+}

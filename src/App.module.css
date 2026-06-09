@@ -1,0 +1,261 @@
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  line-height: 1;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.logoChain {
+  color: var(--accent);
+}
+
+.logoEmoji {
+  font-size: 1.3rem;
+  margin: 0 1px;
+  line-height: 1;
+}
+
+.logoLink {
+  color: var(--accent);
+}
+
+.puzzleNumber {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 22px;
+  padding: 0 9px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.puzzleNumber::before {
+  content: '';
+  position: absolute;
+  inset: -10px;
+  border-radius: inherit;
+  background: radial-gradient(circle at 25% 35%, color-mix(in srgb, #fff 14%, transparent), transparent 58%);
+  opacity: 0.45;
+  transform: translateX(-16%) scale(0.95);
+  animation: bubbleFloat 4.2s ease-in-out infinite;
+  z-index: -1;
+}
+
+.headerRight {
+  display: flex;
+  gap: 4px;
+}
+
+.iconButton {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: color-mix(in srgb, var(--surface) 45%, transparent);
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.iconButton:hover {
+  background: var(--surface-hover);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.statsIcon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* ── Main ─────────────────────────────────────── */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.4s ease;
+}
+
+/* ── Status bar ───────────────────────────────── */
+.statusBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0 6px;
+}
+
+.timerBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.timerLabel {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.timerValue {
+  font-size: 1.3rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.timerPaused {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.tryBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-left: 12px;
+  border-left: 1px solid var(--border);
+}
+
+.tryLabel {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.tryValue {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  line-height: 1;
+}
+
+.attemptDots {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 4px;
+}
+
+.attemptDot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--wrong);
+  opacity: 0.75;
+}
+
+/* ── Hint text ────────────────────────────────── */
+.hint {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.hintStart {
+  color: var(--start);
+  font-weight: 700;
+}
+
+.hintEnd {
+  color: var(--end);
+  font-weight: 700;
+}
+
+/* ── No puzzle ────────────────────────────────── */
+.noPuzzle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.noPuzzleEmoji {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/* ── Footer ───────────────────────────────────── */
+.footer {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+}
+
+.footerDot {
+  opacity: 0.7;
+}
+
+.footerLink {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footerLink:hover {
+  color: var(--accent);
+}
