@@ -50,11 +50,10 @@ export default function App() {
 
   const footer = (
     <footer className={styles.footer}>
-      <span>© {currentYear} NoodleGames.co</span>
-      <span className={styles.footerDot}>•</span>
-      <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
-        noodlegames.co
+      <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLogo}>
+        🍜 NoodleGames
       </a>
+      <span className={styles.footerCopy}>© {currentYear} NoodleGames.co</span>
     </footer>
   );
 
