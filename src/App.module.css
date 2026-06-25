@@ -27,11 +27,11 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 1px;
+  gap: 6px;
   line-height: 1;
-  font-size: 1.55rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .logoChain {
@@ -245,6 +245,9 @@
 }
 
 .footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-weight: 600;
   font-size: 0.9rem;
   color: #ff6b4a;

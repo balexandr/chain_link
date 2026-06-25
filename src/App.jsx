@@ -6,6 +6,8 @@ import WinScreen from './components/WinScreen';
 import HowToPlay from './components/HowToPlay';
 import StatsScreen from './components/StatsScreen';
 import styles from './App.module.css';
+import { GameLogo } from './components/GameLogo';
+import { NoodleLogoIcon } from './components/NoodleLogo';
 
 const HOW_TO_PLAY_KEY = 'chain-link-how-to-play-seen';
 
@@ -51,7 +53,7 @@ export default function App() {
   const footer = (
     <footer className={styles.footer}>
       <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLogo}>
-        🍜 NoodleGames
+        <NoodleLogoIcon size={18} /> NoodleGames
       </a>
       <span className={styles.footerCopy}>© {currentYear} NoodleGames.co</span>
     </footer>
@@ -60,7 +62,7 @@ export default function App() {
   const Logo = () => (
     <h1 className={styles.logo}>
       <span className={styles.logoChain}>Chain</span>
-      <span className={styles.logoEmoji}>🔗</span>
+      <GameLogo />
       <span className={styles.logoLink}>Link</span>
     </h1>
   );
