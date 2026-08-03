@@ -28,6 +28,12 @@ A **START** cell (green) and an **END** cell (red) are marked on the grid. Draw 
 
 ---
 
+## Sharing
+
+After a solve you can share your time, attempts, and accuracy. Once you've finished at least one NoodleGame today, a **Share all completed** button appears in the footer, letting you share every game you've solved today in one message.
+
+---
+
 ## Stack
 
 React + Vite · CSS Modules · localStorage · GitHub Pages
@@ -36,4 +42,4 @@ React + Vite · CSS Modules · localStorage · GitHub Pages
 
 ## Puzzles
 
-Puzzles run from **June 3, 2026** onward. Each puzzle is keyed by date in `src/data/puzzles.json` and includes the grid, start/end positions, valid path, and accepted word connections. New dates can be added to the JSON without a code change.
+Puzzles run from **June 3, 2026** onward (212 days, through December 2026). Each puzzle is keyed by date in `src/data/puzzles.json` and includes the grid, start/end positions, valid path, and accepted word connections. New dates can be added to the JSON without a code change.
