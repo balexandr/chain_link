@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://balexandr.github.io/chain_link/sitemap.xml
