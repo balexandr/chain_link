@@ -123,14 +123,12 @@
     drop-shadow(0 0 24px rgba(74, 222, 128, 0.2));
 }
 
-/* ── 4×4 grid ───────────────────────────────────────────────────── */
+/* ── Grid (columns/rows set inline per-puzzle in Grid.jsx) ────────── */
 .grid {
   position: absolute;
   inset: 8px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 7px;
+  gap: 6px;
 }
 
 /* ── Cell base ──────────────────────────────────────────────────── */
@@ -232,7 +230,7 @@
 /* ── Cell word ──────────────────────────────────────────────────── */
 .cellWord {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(0.6rem, 2.6vw, 0.82rem);
+  font-size: clamp(0.48rem, 2.1vw, 0.68rem);
   font-weight: 800;
   letter-spacing: -0.01em;
   text-align: center;
@@ -269,11 +267,11 @@
 /* START / END badge */
 .cellBadge {
   font-family: 'Inter', sans-serif;
-  font-size: clamp(0.34rem, 1.2vw, 0.44rem);
+  font-size: clamp(0.28rem, 1vw, 0.38rem);
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   opacity: 0.9;
-  margin-top: 3px;
+  margin-top: 2px;
   pointer-events: none;
 }

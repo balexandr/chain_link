@@ -13,6 +13,8 @@ export default function Grid({ puzzle, path, gameStatus, onPathChange, onSubmit,
   const { grid, start, end, connections } = puzzle;
   const [sr, sc] = start;
   const [er, ec] = end;
+  const rows = grid.length;
+  const cols = grid[0].length;
 
   const drawingRef = useRef(false);
   const gridRef = useRef(null);
@@ -121,11 +123,12 @@ export default function Grid({ puzzle, path, gameStatus, onPathChange, onSubmit,
             const prev = path[i - 1];
             const [r1, c1] = prev;
             const [r2, c2] = pos;
-            const cellSize = 100 / 4;
-            const x1 = (c1 + 0.5) * cellSize;
-            const y1 = (r1 + 0.5) * cellSize;
-            const x2 = (c2 + 0.5) * cellSize;
-            const y2 = (r2 + 0.5) * cellSize;
+            const cellW = 100 / cols;
+            const cellH = 100 / rows;
+            const x1 = (c1 + 0.5) * cellW;
+            const y1 = (r1 + 0.5) * cellH;
+            const x2 = (c2 + 0.5) * cellW;
+            const y2 = (r2 + 0.5) * cellH;
             return (
               <line
                 key={`${i}`}
@@ -137,7 +140,10 @@ export default function Grid({ puzzle, path, gameStatus, onPathChange, onSubmit,
           })}
         </svg>
 
-        <div className={styles.grid}>
+        <div
+          className={styles.grid}
+          style={{ gridTemplateColumns: `repeat(${cols}, 1fr)`, gridTemplateRows: `repeat(${rows}, 1fr)` }}
+        >
           {grid.map((row, r) =>
             row.map((word, c) => {
               const isStart = r === sr && c === sc;
