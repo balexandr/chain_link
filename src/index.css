@@ -82,6 +82,30 @@ body {
   align-items: center;
 }
 
+/* A small torchlight travels a right-angle path across the stone
+   corridor, echoing the chain a player draws through the grid one link
+   at a time. steps() makes it jump between waypoints instead of
+   smoothly drifting. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle 70px at 50% 50%, rgba(168, 85, 247, 0.14) 0%, transparent 70%);
+  animation: chainWalk 16s steps(6) infinite;
+  z-index: 0;
+}
+
+@keyframes chainWalk {
+  0%   { transform: translate(-30vw, -20vh); }
+  16%  { transform: translate(-30vw, 18vh); }
+  33%  { transform: translate(-6vw, 18vh); }
+  50%  { transform: translate(-6vw, -18vh); }
+  66%  { transform: translate(24vw, -18vh); }
+  83%  { transform: translate(24vw, 20vh); }
+  100% { transform: translate(-30vw, -20vh); }
+}
+
 /* Ambient torch glow that very subtly flickers */
 body::after {
   content: '';
