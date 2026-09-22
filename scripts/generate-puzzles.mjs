@@ -26,8 +26,10 @@ const MAX_CHAIN = 10;
 
 // ── Compound-word graph ─────────────────────────────────────────────
 // Each entry [A, B] means A+B (or the phrase "A B") is a real,
-// verifiable English compound word/phrase. Direction of the pair is
-// just documentation — the game checks connections order-agnostic.
+// verifiable English compound word/phrase. Direction is load-bearing:
+// the chain can only step A -> B along a listed edge, never B -> A,
+// so the words the player walks always read as a real compound in
+// that order.
 const EDGES = [
   // FIRE / PLACE / MAT / DOOR / BELL / BOY / SCOUT (original family)
   ['FIRE', 'PLACE'], ['FIRE', 'FLY'], ['FIRE', 'WORK'], ['FIRE', 'ARM'],
@@ -236,15 +238,20 @@ const EDGES = [
   ['SNAP', 'SHOT'], ['SNAP', 'SHOT'], ['SNAP', 'DRAGON'], ['SNAP', 'SHOT'],
 ];
 
-// ── Build adjacency + vocabulary ────────────────────────────────────
-const adj = new Map();
-function addNode(w) { if (!adj.has(w)) adj.set(w, new Set()); }
-for (const [a, b] of EDGES) {
-  addNode(a); addNode(b);
-  adj.get(a).add(b);
-  adj.get(b).add(a);
+// ── Build directed adjacency + vocabulary ───────────────────────────
+// Only A -> B is walkable (never the reverse), so a chain always
+// reads as real compounds in the order the player traces them.
+const outAdj = new Map();
+const allWords = new Set();
+function addOut(a, b) {
+  if (!outAdj.has(a)) outAdj.set(a, new Set());
+  outAdj.get(a).add(b);
 }
-const VOCAB = [...adj.keys()];
+for (const [a, b] of EDGES) {
+  allWords.add(a); allWords.add(b);
+  addOut(a, b);
+}
+const VOCAB = [...allWords];
 
 // ── Deterministic RNG (mulberry32), seeded per date so re-runs are stable ──
 function seedFromString(str) {
@@ -283,10 +290,11 @@ function buildChain(targetLen, rand, maxAttempts = 400) {
     let stuck = false;
     while (chain.length < targetLen) {
       const current = chain[chain.length - 1];
-      const neighbors = shuffle([...adj.get(current)], rand).filter((n) => !used.has(n));
+      const outs = outAdj.get(current) || new Set();
+      const neighbors = shuffle([...outs], rand).filter((n) => !used.has(n));
       if (neighbors.length === 0) { stuck = true; break; }
       // Prefer a neighbor that still has room to keep going, when possible
-      const next = neighbors.find((n) => [...adj.get(n)].some((nn) => !used.has(nn) && nn !== current)) || neighbors[0];
+      const next = neighbors.find((n) => [...(outAdj.get(n) || [])].some((nn) => !used.has(nn))) || neighbors[0];
       chain.push(next);
       used.add(next);
     }
@@ -381,8 +389,7 @@ function verifyPuzzle(puzzle) {
     const wordA = grid[solution[i][0]][solution[i][1]];
     const wordB = grid[solution[i + 1][0]][solution[i + 1][1]];
     const [ca, cb] = connections[i];
-    const matches = (ca === wordA && cb === wordB) || (ca === wordB && cb === wordA);
-    if (!matches) return false;
+    if (ca !== wordA || cb !== wordB) return false;
   }
   return true;
 }

@@ -27,14 +27,14 @@ function isAdjacent([r1, c1], [r2, c2]) {
   return (Math.abs(r1 - r2) + Math.abs(c1 - c2)) === 1;
 }
 
-// Validate that every consecutive pair in path appears in connections (either order)
+// Validate that every consecutive pair in path appears in connections in
+// that exact order, so the words the player walks always read as the real
+// compound (e.g. CAT -> WALK for catwalk, never WALK -> CAT).
 function validatePath(path, grid, connections) {
   for (let i = 0; i < path.length - 1; i++) {
     const wordA = grid[path[i][0]][path[i][1]];
     const wordB = grid[path[i + 1][0]][path[i + 1][1]];
-    const valid = connections.some(([a, b]) =>
-      (a === wordA && b === wordB) || (a === wordB && b === wordA)
-    );
+    const valid = connections.some(([a, b]) => a === wordA && b === wordB);
     if (!valid) return false;
   }
   return true;
