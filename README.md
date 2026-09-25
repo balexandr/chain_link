@@ -14,7 +14,7 @@ A **START** cell (green) and an **END** cell (red) are marked on the grid. Draw 
 - Press and hold on START, drag through the grid, release on END to submit.
 - Releasing before reaching END resets your path.
 - **Unlimited attempts** — but your time keeps running and accuracy drops with each wrong try.
-- Resets daily at **midnight EST**.
+- Resets daily at **midnight ET**.
 
 ---
 
