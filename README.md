@@ -1,4 +1,4 @@
-# Chain Link — Daily Word Path Puzzle
+# Chain Link: Daily Word Path Puzzle
 
 A daily puzzle game where you draw a path through a 4×4 word grid. Every step in your path must form a compound word with the next. One valid solution per day.
 
@@ -10,10 +10,10 @@ Part of the [NoodleGames](https://noodlegames.co) family alongside **Sequence** 
 
 A **START** cell (green) and an **END** cell (red) are marked on the grid. Draw a continuous path from START to END where every adjacent pair of words forms a valid compound word.
 
-- Movement is 4-directional — up, down, left, right. No diagonals.
+- Movement is 4-directional: up, down, left, right. No diagonals.
 - Press and hold on START, drag through the grid, release on END to submit.
 - Releasing before reaching END resets your path.
-- **Unlimited attempts** — but your time keeps running and accuracy drops with each wrong try.
+- **Unlimited attempts**, but your time keeps running and accuracy drops with each wrong try.
 - Resets daily at **midnight ET**.
 
 ---
