@@ -25,9 +25,9 @@
     0 0 0 1px rgba(168, 85, 247, 0.18),
     0 0 0 3px rgba(30, 20, 50, 0.8),
     0 0 0 4px rgba(168, 85, 247, 0.07),
-    /* Depth */
-    0 20px 60px rgba(0,0,0,0.75),
-    0 8px 24px rgba(0,0,0,0.5),
+    /* Depth: heavier and closer than the others, like real quarried stone */
+    0 12px 40px rgba(0,0,0,0.8),
+    0 4px 12px rgba(0,0,0,0.55),
     /* Top highlight (light hitting stone edge) */
     inset 0 2px 0 rgba(255,255,255,0.09),
     inset 0 -2px 0 rgba(0,0,0,0.5),
