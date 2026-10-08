@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IconClose, IconCheckmark, IconShare, IconTrophy, IconBolt, IconTarget, IconFlame, IconCheckCircle, IconBulb, IconRibbon } from './Icons';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -21,13 +22,13 @@ function formatTime(s) {
 }
 
 function getRating(attempts, seconds) {
-  if (attempts === 1 && seconds < 60) return { emoji: '🏆', label: 'Flawless' };
-  if (attempts === 1 && seconds < 180) return { emoji: '⚡', label: 'Speedy' };
-  if (attempts === 1) return { emoji: '🎯', label: 'First Try' };
-  if (attempts <= 3 && seconds < 120) return { emoji: '🔥', label: 'Sharp' };
-  if (attempts <= 3) return { emoji: '✅', label: 'Solid' };
-  if (attempts <= 6) return { emoji: '💡', label: 'Got There' };
-  return { emoji: '💪', label: 'Determined' };
+  if (attempts === 1 && seconds < 60) return { Icon: IconTrophy, label: 'Flawless' };
+  if (attempts === 1 && seconds < 180) return { Icon: IconBolt, label: 'Speedy' };
+  if (attempts === 1) return { Icon: IconTarget, label: 'First Try' };
+  if (attempts <= 3 && seconds < 120) return { Icon: IconFlame, label: 'Sharp' };
+  if (attempts <= 3) return { Icon: IconCheckCircle, label: 'Solid' };
+  if (attempts <= 6) return { Icon: IconBulb, label: 'Got There' };
+  return { Icon: IconRibbon, label: 'Determined' };
 }
 
 export default function WinScreen({ puzzle, path, attempts, elapsedSeconds, puzzleNumber, generateShareText, stats, winPct, onDismiss }) {
@@ -83,10 +84,10 @@ export default function WinScreen({ puzzle, path, attempts, elapsedSeconds, puzz
         </div>
 
         <div className={styles.resultHeader}>
-          <button className={styles.dismissBtn} onClick={onDismiss} aria-label="Close">✕</button>
-          <span className={styles.ratingEmoji}>{rating.emoji}</span>
+          <button className={styles.dismissBtn} onClick={onDismiss} aria-label="Close"><IconClose /></button>
+          <span className={styles.ratingEmoji}><rating.Icon /></span>
           <h2 className={styles.title}>{rating.label}!</h2>
-          <p className={styles.subtitle}>Chain Link #{puzzleNumber} — chain complete</p>
+          <p className={styles.subtitle}>Chain Link #{puzzleNumber}, chain complete</p>
         </div>
 
         <div className={styles.metricsRow}>
@@ -139,7 +140,7 @@ export default function WinScreen({ puzzle, path, attempts, elapsedSeconds, puzz
           className={`${styles.shareButton} ${copied ? styles.copied : ''}`}
           onClick={handleShare}
         >
-          {copied ? '✓ Copied to clipboard' : '⬆ Share your result'}
+          {copied ? <><IconCheckmark /> Copied to clipboard</> : <><IconShare /> Share your result</>}
         </button>
 
         <div className={styles.countdown}>

@@ -1,3 +1,4 @@
+import { IconDrag, IconLink, IconDirections, IconInfinity } from './Icons';
 import styles from './HowToPlay.module.css';
 
 export default function HowToPlay({ onClose }) {
@@ -9,31 +10,31 @@ export default function HowToPlay({ onClose }) {
 
         <div className={styles.steps}>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>👆</span>
+            <span className={styles.stepIcon}><IconDrag /></span>
             <div>
               <p className={styles.stepTitle}>Press and drag</p>
               <p className={styles.stepDesc}>Hold down on the <strong style={{ color: 'var(--start)' }}>green START</strong> cell and drag through the grid. Release on <strong style={{ color: 'var(--end)' }}>red END</strong> to submit.</p>
             </div>
           </div>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>🔗</span>
+            <span className={styles.stepIcon}><IconLink /></span>
             <div>
               <p className={styles.stepTitle}>Chain compound words</p>
-              <p className={styles.stepDesc}>Each adjacent pair in your path must form a real compound word — e.g. FIRE→PLACE (FIREPLACE) or PLACE→MAT (PLACEMAT).</p>
+              <p className={styles.stepDesc}>Each adjacent pair in your path must form a real compound word, e.g. FIRE→PLACE (FIREPLACE) or PLACE→MAT (PLACEMAT).</p>
             </div>
           </div>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>↔️</span>
+            <span className={styles.stepIcon}><IconDirections /></span>
             <div>
               <p className={styles.stepTitle}>4-directional moves only</p>
-              <p className={styles.stepDesc}>Move up, down, left, or right — no diagonals. Lift your finger mid-path and it resets.</p>
+              <p className={styles.stepDesc}>Move up, down, left, or right, no diagonals. Lift your finger mid-path and it resets.</p>
             </div>
           </div>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>♾️</span>
+            <span className={styles.stepIcon}><IconInfinity /></span>
             <div>
               <p className={styles.stepTitle}>Unlimited attempts</p>
-              <p className={styles.stepDesc}>Wrong path? Try again — your time keeps running and fewer attempts means higher accuracy on the share card.</p>
+              <p className={styles.stepDesc}>Wrong path? Try again, your time keeps running and fewer attempts means higher accuracy on the share card.</p>
             </div>
           </div>
         </div>
