@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { IconClose, IconCheckmark, IconShare, IconTrophy, IconBolt, IconTarget, IconFlame, IconCheckCircle, IconBulb, IconRibbon, IconLeaderboard } from './Icons';
+import { copyToClipboard } from '../utils/shareAll';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -54,16 +55,7 @@ export default function WinScreen({ puzzle, path, attempts, elapsedSeconds, puzz
     if (navigator.share) {
       try { await navigator.share({ text }); return; } catch {}
     }
-    try { await navigator.clipboard.writeText(text); }
-    catch {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.cssText = 'position:fixed;opacity:0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-    }
+    await copyToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };

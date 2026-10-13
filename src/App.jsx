@@ -9,7 +9,7 @@ import LeaderboardPanel from './components/LeaderboardPanel';
 import styles from './App.module.css';
 import { GameLogo } from './components/GameLogo';
 import { NoodleLogoIcon } from './components/NoodleLogo';
-import { recordTodayShare, getCompletedTodayCount, buildShareAllText, TOTAL_GAMES } from './utils/shareAll';
+import { recordTodayShare, getCompletedTodayCount, buildShareAllText, copyToClipboard, TOTAL_GAMES } from './utils/shareAll';
 import { toLeaderboardScore } from './utils/leaderboardScore';
 import { fetchTodayBoard, findMyRow, wouldQualify } from './utils/leaderboard';
 import { IconCheckmark, IconShare, IconLink, IconLeaderboard } from './components/Icons';
@@ -90,16 +90,7 @@ export default function App() {
     if (navigator.share) {
       try { await navigator.share({ text }); return; } catch {}
     }
-    try { await navigator.clipboard.writeText(text); }
-    catch {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.cssText = 'position:fixed;opacity:0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-    }
+    await copyToClipboard(text);
     setShareAllCopied(true);
     setTimeout(() => setShareAllCopied(false), 2500);
   };
