@@ -281,20 +281,55 @@ function shuffle(arr, rand) {
 }
 function pick(arr, rand) { return arr[Math.floor(rand() * arr.length)]; }
 
+// ── Recency-weighted pick ────────────────────────────────────────────
+// `lastUsed` maps word -> the day-number (see dayNum below) it last
+// appeared on. Weight grows with how many days it's been idle, so
+// among words that pass the cooldown gate, the longest-idle ones are
+// still favored rather than picked uniformly.
+function idleDays(word, lastUsed, dayNum) {
+  const last = lastUsed.get(word);
+  return last === undefined ? 10000 : dayNum - last;
+}
+function weightedPick(arr, lastUsed, dayNum, rand) {
+  const weights = arr.map((w) => Math.min(idleDays(w, lastUsed, dayNum), 90));
+  const total = weights.reduce((s, w) => s + w, 0);
+  let r = rand() * total;
+  for (let i = 0; i < arr.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return arr[i];
+  }
+  return arr[arr.length - 1];
+}
+
 // ── Random-walk a word chain of target length through the graph ────
-function buildChain(targetLen, rand, maxAttempts = 400) {
+// `cooldown` is the minimum number of days a word must sit idle
+// before it's allowed to reappear. This targets what players actually
+// notice — the SAME word showing up every few days — rather than
+// capping lifetime totals, which a structural chokepoint (e.g. WAY's
+// only outgoing edge is WAY->SIDE, or THRESHOLD/STRANGLEHOLD/
+// STRONGHOLD all only going to HOLD) can't honor forever anyway: a
+// handful of words simply don't have enough real English compounds
+// to always offer a fresh alternative. Letting them recur after a
+// cooldown, instead of forbidding them for the whole run, avoids
+// just shifting the pile-up onto whichever other sink is still fresh.
+function buildChain(targetLen, rand, lastUsed, dayNum, cooldown, maxAttempts = 400) {
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
-    const start = pick(VOCAB, rand);
+    const eligible = (w) => idleDays(w, lastUsed, dayNum) >= cooldown;
+    const startOptions = VOCAB.filter(eligible);
+    const start = weightedPick(startOptions.length ? startOptions : VOCAB, lastUsed, dayNum, rand);
     const chain = [start];
     const used = new Set([start]);
     let stuck = false;
     while (chain.length < targetLen) {
       const current = chain[chain.length - 1];
       const outs = outAdj.get(current) || new Set();
-      const neighbors = shuffle([...outs], rand).filter((n) => !used.has(n));
-      if (neighbors.length === 0) { stuck = true; break; }
-      // Prefer a neighbor that still has room to keep going, when possible
-      const next = neighbors.find((n) => [...(outAdj.get(n) || [])].some((nn) => !used.has(nn))) || neighbors[0];
+      const candidates = [...outs].filter((n) => !used.has(n) && eligible(n));
+      if (candidates.length === 0) { stuck = true; break; }
+      // Prefer neighbors that still have room to keep going, when any
+      // exist, but choose among them by idle time, not blind luck.
+      const withRoom = candidates.filter((n) => [...(outAdj.get(n) || [])].some((nn) => !used.has(nn)));
+      const pool = withRoom.length ? withRoom : candidates;
+      const next = weightedPick(pool, lastUsed, dayNum, rand);
       chain.push(next);
       used.add(next);
     }
@@ -331,11 +366,18 @@ function isAdjacent([r1, c1], [r2, c2]) {
   return Math.abs(r1 - r2) + Math.abs(c1 - c2) === 1;
 }
 
-function buildPuzzle(dateKey) {
+function buildPuzzle(dateKey, lastUsed, dayNum, baseCooldown) {
   const rand = mulberry32(seedFromString(dateKey));
   for (let outer = 0; outer < 200; outer++) {
+    // Shrink the cooldown gradually if the strict version can't find
+    // a valid path (some structural chokepoints have no alternative
+    // at all) — better to let a hub recur a little early on a hard
+    // day than to throw and leave that date with no puzzle. By the
+    // last fifth of attempts, drop the cooldown entirely so a date
+    // can never fail to generate just because freshness was too strict.
+    const cooldown = outer < 160 ? Math.max(baseCooldown - Math.floor(outer / 32), 0) : 0;
     const targetLen = MIN_CHAIN + Math.floor(rand() * (MAX_CHAIN - MIN_CHAIN + 1));
-    const chain = buildChain(targetLen, rand);
+    const chain = buildChain(targetLen, rand, lastUsed, dayNum, cooldown);
     if (!chain) continue;
     const gridPath = buildGridPath(chain.length, rand);
     if (!gridPath) continue;
@@ -347,7 +389,16 @@ function buildPuzzle(dateKey) {
     });
 
     const usedWords = new Set(chain);
-    const fillerPool = shuffle(VOCAB.filter((w) => !usedWords.has(w)), rand);
+    const eligibleFiller = VOCAB.filter((w) => !usedWords.has(w) && idleDays(w, lastUsed, dayNum) >= cooldown);
+    const fillerCandidates = eligibleFiller.length ? eligibleFiller : VOCAB.filter((w) => !usedWords.has(w));
+    const fillerPool = [];
+    const fillerPicked = new Set();
+    while (fillerPool.length < fillerCandidates.length) {
+      const remaining = fillerCandidates.filter((w) => !fillerPicked.has(w));
+      const next = weightedPick(remaining, lastUsed, dayNum, rand);
+      fillerPicked.add(next);
+      fillerPool.push(next);
+    }
     let fillerIdx = 0;
     let fillerOk = true;
     for (let r = 0; r < GRID_SIZE && fillerOk; r++) {
@@ -371,7 +422,10 @@ function buildPuzzle(dateKey) {
       connections,
     };
 
-    if (verifyPuzzle(puzzle)) return puzzle;
+    if (verifyPuzzle(puzzle)) {
+      for (const w of grid.flat()) lastUsed.set(w, dayNum);
+      return puzzle;
+    }
   }
   throw new Error(`Failed to build a puzzle for ${dateKey} after 200 attempts`);
 }
@@ -405,6 +459,7 @@ function dateRange(from, to) {
   }
   return dates;
 }
+function dayNumOf(dateKey) { return Math.floor(new Date(dateKey + 'T00:00:00Z').getTime() / 86400000); }
 
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
   const [k, v] = a.replace(/^--/, '').split('=');
@@ -417,10 +472,27 @@ const DRY_RUN = !!args['dry-run'];
 
 const existing = JSON.parse(readFileSync(PUZZLES_PATH, 'utf8'));
 const dates = dateRange(FROM, TO);
+const regenSet = new Set(dates);
+
+// Seed last-used days from every puzzle NOT being regenerated
+// (locked, already-playable days) so freshly generated days respect
+// the real cooldown relative to whenever a word last actually
+// appeared, instead of starting with a blank slate.
+const lastUsed = new Map();
+for (const [dateKey, puzzle] of Object.entries(existing)) {
+  if (regenSet.has(dateKey)) continue;
+  const dn = dayNumOf(dateKey);
+  for (const w of puzzle.grid.flat()) {
+    if (lastUsed.get(w) === undefined || dn > lastUsed.get(w)) lastUsed.set(w, dn);
+  }
+}
+
+// Minimum number of days a word must sit idle before it can reappear.
+const COOLDOWN = Number(args.cooldown) || 7;
 
 let generated = 0;
 for (const dateKey of dates) {
-  existing[dateKey] = buildPuzzle(dateKey);
+  existing[dateKey] = buildPuzzle(dateKey, lastUsed, dayNumOf(dateKey), COOLDOWN);
   generated++;
 }
 
