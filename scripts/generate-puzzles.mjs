@@ -236,6 +236,50 @@ const EDGES = [
   ['SHOT', 'GUN'], ['GUN', 'SHOT'], ['SNAP', 'SHOT'], ['SHOT', 'PUT'],
   ['UP', 'SHOT'],
   ['SNAP', 'SHOT'], ['SNAP', 'SHOT'], ['SNAP', 'DRAGON'], ['SNAP', 'SHOT'],
+
+  // Second batch, added 2026-11-05 — user said the puzzles were getting
+  // repetitive even after the 2026-11-03 cooldown fix (see buildChain's
+  // comments). Root cause the cooldown alone couldn't fix: several of
+  // the graph's busiest sinks (BOARD, WAY, GROUND) had exactly ONE
+  // outgoing edge, so any chain reaching them was forced down that one
+  // path regardless of cooldown state. Gave those real second options
+  // (BOARD->GAME/ROOM, WAY->WARD/LAY, GROUND->HOG) and added ~80 new
+  // real compound-word edges across fresh families (fast food, sports,
+  // travel, household, weather) that didn't exist in the graph at all
+  // before, nearly doubling available vocabulary (332->407 words) so
+  // the cooldown mechanism has more fresh material to rotate through.
+  ['BOARD', 'GAME'], ['BOARD', 'ROOM'], ['WAY', 'WARD'], ['WAY', 'LAY'], ['GROUND', 'HOG'],
+  ['BOX', 'CUTTER'],
+  ['HAM', 'BURGER'], ['HAM', 'STER'], ['CHEESE', 'BURGER'], ['CHEESE', 'CAKE'],
+  ['CORN', 'DOG'], ['HOT', 'DOG'], ['HOT', 'CAKE'], ['HOT', 'SHOT'], ['HOT', 'SPOT'],
+  ['FRENCH', 'FRY'],
+  ['CANDY', 'CANE'], ['CANDY', 'BAR'], ['BAR', 'TENDER'],
+  ['BUBBLE', 'GUM'], ['GUM', 'DROP'],
+  ['TEDDY', 'BEAR'], ['POLAR', 'BEAR'], ['GRIZZLY', 'BEAR'], ['BEAR', 'SKIN'], ['BEAR', 'CLAW'],
+  ['SEA', 'GULL'],
+  ['RASP', 'BERRY'], ['CRAN', 'BERRY'], ['GRANOLA', 'BAR'],
+  ['FRUIT', 'PUNCH'], ['PUNCH', 'LINE'], ['LINE', 'UP'],
+  ['HONEY', 'DEW'],
+  ['BROOM', 'CLOSET'], ['LAUNDRY', 'ROOM'], ['LAUNDRY', 'BASKET'],
+  ['GARBAGE', 'TRUCK'], ['TRUCK', 'LOAD'],
+  ['RECYCLING', 'BIN'], ['PICTURE', 'FRAME'], ['CANDLE', 'STICK'],
+  ['CEILING', 'FAN'], ['FAN', 'CLUB'],
+  ['GARAGE', 'SALE'], ['GARAGE', 'DOOR'],
+  ['LOCKER', 'ROOM'],
+  ['HOCKEY', 'STICK'], ['GOLF', 'CLUB'], ['GOLF', 'COURSE'], ['TENNIS', 'COURT'],
+  ['TRACK', 'MEET'], ['FINISH', 'LINE'], ['GOAL', 'LINE'], ['GOAL', 'POST'],
+  ['SPRING', 'TIME'], ['SPRING', 'BREAK'], ['BREAK', 'FAST'], ['BREAK', 'DOWN'], ['BREAK', 'OUT'],
+  ['SUMMER', 'TIME'], ['WINTER', 'TIME'], ['TIME', 'OUT'], ['TIME', 'LINE'],
+  ['HEAT', 'STROKE'],
+  ['BUS', 'STOP'], ['STOP', 'WATCH'],
+  ['PARKING', 'LOT'], ['PARKING', 'METER'],
+  ['TRAFFIC', 'JAM'], ['TRAFFIC', 'LIGHT'],
+  ['SPEED', 'LIMIT'],
+  ['BRIEF', 'CASE'],
+  ['VIDEO', 'GAME'], ['GAME', 'SHOW'],
+  ['JIGSAW', 'PUZZLE'], ['SEE', 'SAW'],
+  ['NORTH', 'STAR'],
+  ['DESERT', 'ISLAND'], ['LAND', 'SLIDE'], ['MUD', 'SLIDE'],
 ];
 
 // ── Build directed adjacency + vocabulary ───────────────────────────

@@ -16176,39 +16176,39 @@
   "2026-11-06": {
     "grid": [
       [
-        "TEAM",
-        "CROCK",
-        "COW",
-        "TOOL",
-        "PEEP"
+        "PUNCH",
+        "CEILING",
+        "FRUIT",
+        "FRY",
+        "CANDY"
       ],
       [
-        "LIP",
-        "BENCH",
-        "JUNK",
-        "MATE",
-        "SHOP"
-      ],
-      [
+        "BREAK",
         "TEA",
-        "SOUL",
-        "COAT",
-        "HOLDER",
-        "PLACE"
+        "SIZE",
+        "HOCKEY",
+        "UNDER"
       ],
       [
-        "SURF",
-        "AIR",
-        "TOE",
-        "WILD",
-        "WORK"
+        "CUTTER",
+        "SPRING",
+        "ROOT",
+        "TEDDY",
+        "BY"
       ],
       [
-        "BOARD",
-        "WALK",
-        "OUT",
+        "SEA",
         "BACK",
-        "GROUND"
+        "FIRE",
+        "LAND",
+        "SLIDE"
+      ],
+      [
+        "HORSE",
+        "PLAY",
+        "BALL",
+        "PARK",
+        "TRAFFIC"
       ]
     ],
     "start": [
@@ -16216,8 +16216,8 @@
       0
     ],
     "end": [
-      2,
-      3
+      3,
+      4
     ],
     "solution": [
       [
@@ -16231,6 +16231,736 @@
       [
         4,
         1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "SEA",
+        "HORSE"
+      ],
+      [
+        "HORSE",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "BACK"
+      ],
+      [
+        "BACK",
+        "FIRE"
+      ],
+      [
+        "FIRE",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ],
+      [
+        "LAND",
+        "SLIDE"
+      ]
+    ]
+  },
+  "2026-11-07": {
+    "grid": [
+      [
+        "SUB",
+        "STER",
+        "BUS",
+        "SUMMER",
+        "TENNIS"
+      ],
+      [
+        "SHAKE",
+        "FAST",
+        "BUBBLE",
+        "PARKING",
+        "CHEESE"
+      ],
+      [
+        "WRECK",
+        "AGE",
+        "CLAW",
+        "FALL",
+        "DAY"
+      ],
+      [
+        "SHIP",
+        "HEAT",
+        "COURSE",
+        "WORK",
+        "FRAME"
+      ],
+      [
+        "TOWN",
+        "DOWN",
+        "MARK",
+        "BOOK",
+        "PICTURE"
+      ]
+    ],
+    "start": [
+      4,
+      4
+    ],
+    "end": [
+      2,
+      1
+    ],
+    "solution": [
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "connections": [
+      [
+        "PICTURE",
+        "FRAME"
+      ],
+      [
+        "FRAME",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "SHIP"
+      ],
+      [
+        "SHIP",
+        "WRECK"
+      ],
+      [
+        "WRECK",
+        "AGE"
+      ]
+    ]
+  },
+  "2026-11-08": {
+    "grid": [
+      [
+        "GAME",
+        "SEE",
+        "STRONG",
+        "ISLAND",
+        "FLY"
+      ],
+      [
+        "HOT",
+        "CRAN",
+        "RAIN",
+        "GOAL",
+        "BENCH"
+      ],
+      [
+        "BUZZ",
+        "CHILD",
+        "MAN",
+        "POST",
+        "STEP"
+      ],
+      [
+        "RECYCLING",
+        "GARAGE",
+        "POWER",
+        "HOUSE",
+        "SIDE"
+      ],
+      [
+        "PUZZLE",
+        "TOOL",
+        "MEAT",
+        "HOLD",
+        "OUT"
+      ]
+    ],
+    "start": [
+      1,
+      3
+    ],
+    "end": [
+      2,
+      4
+    ],
+    "solution": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "GOAL",
+        "POST"
+      ],
+      [
+        "POST",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "STEP"
+      ]
+    ]
+  },
+  "2026-11-09": {
+    "grid": [
+      [
+        "TIME",
+        "LINE",
+        "SHOE",
+        "BELL",
+        "POLAR"
+      ],
+      [
+        "WINTER",
+        "UP",
+        "BOW",
+        "FINGER",
+        "GRIZZLY"
+      ],
+      [
+        "HAND",
+        "RIGHT",
+        "ROW",
+        "MARKET",
+        "COURT"
+      ],
+      [
+        "GUN",
+        "WOLF",
+        "SALE",
+        "BILL",
+        "STAND"
+      ],
+      [
+        "SHOT",
+        "PUT",
+        "BARE",
+        "DUMB",
+        "EAGLE"
+      ]
+    ],
+    "start": [
+      1,
+      0
+    ],
+    "end": [
+      4,
+      1
+    ],
+    "solution": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "connections": [
+      [
+        "WINTER",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "GUN"
+      ],
+      [
+        "GUN",
+        "SHOT"
+      ],
+      [
+        "SHOT",
+        "PUT"
+      ]
+    ]
+  },
+  "2026-11-10": {
+    "grid": [
+      [
+        "DUST",
+        "CHECK",
+        "LIFE",
+        "EYE",
+        "SNOW"
+      ],
+      [
+        "FARE",
+        "TAP",
+        "DANCE",
+        "FLOOR",
+        "BOARD"
+      ],
+      [
+        "NIP",
+        "WIRE",
+        "BARB",
+        "WAY",
+        "WALK"
+      ],
+      [
+        "BLACK",
+        "CLUB",
+        "CLASS",
+        "WARD",
+        "WEATHER"
+      ],
+      [
+        "SNAP",
+        "GARBAGE",
+        "GULL",
+        "SWORD",
+        "COLOR"
+      ]
+    ],
+    "start": [
+      2,
+      2
+    ],
+    "end": [
+      3,
+      3
+    ],
+    "solution": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "BARB",
+        "WIRE"
+      ],
+      [
+        "WIRE",
+        "TAP"
+      ],
+      [
+        "TAP",
+        "DANCE"
+      ],
+      [
+        "DANCE",
+        "FLOOR"
+      ],
+      [
+        "FLOOR",
+        "BOARD"
+      ],
+      [
+        "BOARD",
+        "WALK"
+      ],
+      [
+        "WALK",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "WARD"
+      ]
+    ]
+  },
+  "2026-11-11": {
+    "grid": [
+      [
+        "COPY",
+        "BIN",
+        "TRAP",
+        "BLUE",
+        "NORTH"
+      ],
+      [
+        "BLOCK",
+        "CHAIN",
+        "FLOWER",
+        "BERRY",
+        "FREE"
+      ],
+      [
+        "ROAD",
+        "SMOKE",
+        "MILL",
+        "JUKE",
+        "GUM"
+      ],
+      [
+        "SHOOTING",
+        "SCREEN",
+        "PLAY",
+        "FORCE",
+        "BASKET"
+      ],
+      [
+        "MASTER",
+        "SCOUT",
+        "BOY",
+        "RAIL",
+        "DRUM"
+      ]
+    ],
+    "start": [
+      2,
+      0
+    ],
+    "end": [
+      4,
+      0
+    ],
+    "solution": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "connections": [
+      [
+        "ROAD",
+        "BLOCK"
+      ],
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "BOY"
+      ],
+      [
+        "BOY",
+        "SCOUT"
+      ],
+      [
+        "SCOUT",
+        "MASTER"
+      ]
+    ]
+  },
+  "2026-11-12": {
+    "grid": [
+      [
+        "ROOT",
+        "BUSTER",
+        "RASP",
+        "REST",
+        "COW"
+      ],
+      [
+        "HOLE",
+        "PASS",
+        "DEW",
+        "FRENCH",
+        "MEET"
+      ],
+      [
+        "WATER",
+        "GROUND",
+        "WORK",
+        "GRADE",
+        "POWDER"
+      ],
+      [
+        "LIST",
+        "BACK",
+        "BOOK",
+        "STROKE",
+        "TOP"
+      ],
+      [
+        "MAIL",
+        "PIGGY",
+        "MARK",
+        "DOWN",
+        "HILL"
+      ]
+    ],
+    "start": [
+      4,
+      1
+    ],
+    "end": [
+      3,
+      4
+    ],
+    "solution": [
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
       ],
       [
         4,
@@ -16247,31 +16977,11 @@
       [
         3,
         4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        2,
-        3
       ]
     ],
     "connections": [
       [
-        "SURF",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "OUT"
-      ],
-      [
-        "OUT",
+        "PIGGY",
         "BACK"
       ],
       [
@@ -16284,88 +16994,334 @@
       ],
       [
         "WORK",
-        "PLACE"
+        "BOOK"
       ],
       [
-        "PLACE",
-        "HOLDER"
+        "BOOK",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "HILL"
+      ],
+      [
+        "HILL",
+        "TOP"
       ]
     ]
   },
-  "2026-11-07": {
+  "2026-11-13": {
     "grid": [
       [
-        "DROP",
-        "CLIP",
-        "SEA",
-        "HOP",
-        "RUNNER"
+        "MILE",
+        "PLACE",
+        "FLOOD",
+        "MAN",
+        "POWER"
       ],
       [
-        "BUSTER",
-        "BOW",
-        "ROW",
-        "HOLD",
-        "TRUCK"
+        "BEAR",
+        "FAIR",
+        "GATE",
+        "POST",
+        "HOUSE"
       ],
       [
+        "MAY",
+        "GRANOLA",
+        "SLIDE",
+        "OUT",
+        "HOLD"
+      ],
+      [
+        "POT",
+        "WALL",
+        "STEP",
         "SIDE",
-        "BAR",
-        "POND",
-        "LUCK",
-        "LINE"
+        "BURGER"
       ],
       [
-        "WAY",
-        "BELL",
-        "BOY",
-        "SCOUT",
-        "COPY"
-      ],
-      [
-        "PARK",
-        "BALL",
-        "EYE",
-        "COLOR",
-        "NET"
+        "MATE",
+        "BRIDGE",
+        "THRESH",
+        "WELL",
+        "CHOP"
       ]
     ],
     "start": [
-      4,
+      0,
       2
     ],
     "end": [
       3,
+      2
+    ],
+    "solution": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "FLOOD",
+        "GATE"
+      ],
+      [
+        "GATE",
+        "POST"
+      ],
+      [
+        "POST",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "STEP"
+      ]
+    ]
+  },
+  "2026-11-14": {
+    "grid": [
+      [
+        "CAR",
+        "LIMIT",
+        "MUD",
+        "FLAT",
+        "BED"
+      ],
+      [
+        "SHAKE",
+        "BOWL",
+        "SCHOOL",
+        "NOTE",
+        "TIME"
+      ],
+      [
+        "DOG",
+        "WARE",
+        "BOAT",
+        "CROCK",
+        "LINE"
+      ],
+      [
+        "STORM",
+        "YARD",
+        "PARK",
+        "BALL",
+        "UP"
+      ],
+      [
+        "CLOSET",
+        "NAIL",
+        "HAM",
+        "HAND",
+        "RIGHT"
+      ]
+    ],
+    "start": [
+      0,
+      3
+    ],
+    "end": [
+      3,
+      2
+    ],
+    "solution": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "FLAT",
+        "BED"
+      ],
+      [
+        "BED",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ]
+    ]
+  },
+  "2026-11-15": {
+    "grid": [
+      [
+        "DRAW",
+        "CROSS",
+        "WRITING",
+        "TEXT",
+        "MATCH"
+      ],
+      [
+        "CAKE",
+        "ROAD",
+        "DESERT",
+        "VIDEO",
+        "TRACK"
+      ],
+      [
+        "LOFT",
+        "BLOCK",
+        "CHAIN",
+        "PIPE",
+        "JUKE"
+      ],
+      [
+        "KIND",
+        "KICK",
+        "SMOKE",
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "FOREST",
+        "HOME",
+        "WATCH",
+        "SCOUT",
+        "BOY"
+      ]
+    ],
+    "start": [
+      0,
+      1
+    ],
+    "end": [
+      4,
       3
     ],
     "solution": [
       [
-        4,
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
         2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
       ],
       [
         3,
@@ -16374,125 +17330,18 @@
       [
         3,
         3
-      ]
-    ],
-    "connections": [
-      [
-        "EYE",
-        "BALL"
-      ],
-      [
-        "BALL",
-        "PARK"
-      ],
-      [
-        "PARK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ]
-    ]
-  },
-  "2026-11-08": {
-    "grid": [
-      [
-        "HOUSE",
-        "BOAT",
-        "NAIL",
-        "CORN",
-        "NIP"
-      ],
-      [
-        "PLAY",
-        "DAY",
-        "OFFICE",
-        "PIGGY",
-        "STUDY"
-      ],
-      [
-        "SCREEN",
-        "LAND",
-        "JUKE",
-        "CAR",
-        "BUNK"
-      ],
-      [
-        "SMOKE",
-        "REST",
-        "CROSS",
-        "MAY",
-        "SHAKE"
-      ],
-      [
-        "CHAIN",
-        "BLOCK",
-        "ROAD",
-        "BOX",
-        "BROOM"
-      ]
-    ],
-    "start": [
-      3,
-      2
-    ],
-    "end": [
-      0,
-      1
-    ],
-    "solution": [
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
       ],
       [
         3,
-        0
+        4
       ],
       [
-        2,
-        0
+        4,
+        4
       ],
       [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
+        4,
+        3
       ]
     ],
     "connections": [
@@ -16522,81 +17371,426 @@
       ],
       [
         "PLAY",
-        "HOUSE"
+        "BOY"
       ],
       [
-        "HOUSE",
-        "BOAT"
+        "BOY",
+        "SCOUT"
       ]
     ]
   },
-  "2026-11-09": {
+  "2026-11-16": {
     "grid": [
       [
-        "MARK",
-        "DOWN",
-        "HILL",
-        "DRAW",
-        "LIME"
+        "STONE",
+        "FAN",
+        "CANE",
+        "BACK",
+        "SET"
       ],
       [
-        "HALL",
-        "SIZE",
+        "HAY",
+        "POOL",
         "TOP",
-        "COME",
-        "LACE"
+        "GROUND",
+        "WORK"
       ],
       [
-        "DANCE",
-        "BARB",
-        "DUMB",
-        "MAT",
-        "PORT"
+        "DIP",
+        "FLAKE",
+        "GREEN",
+        "MARK",
+        "BOOK"
       ],
       [
-        "TAP",
-        "WIRE",
-        "CAMP",
-        "HOOD",
-        "GUN"
+        "FLASH",
+        "FOOT",
+        "WAY",
+        "DOWN",
+        "METER"
       ],
       [
-        "MAN",
-        "UNDER",
-        "KEY",
-        "STAND",
-        "JAY"
+        "STAIRS",
+        "HOLE",
+        "HALL",
+        "TOWN",
+        "CHEESE"
       ]
     ],
     "start": [
-      2,
-      1
+      0,
+      4
     ],
     "end": [
-      1,
+      3,
       2
     ],
     "solution": [
       [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
         2,
-        1
+        4
+      ],
+      [
+        2,
+        3
       ],
       [
         3,
-        1
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
       ],
       [
         3,
-        0
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "SET",
+        "BACK"
       ],
       [
-        2,
-        0
+        "BACK",
+        "GROUND"
+      ],
+      [
+        "GROUND",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "HALL"
+      ],
+      [
+        "HALL",
+        "WAY"
+      ]
+    ]
+  },
+  "2026-11-17": {
+    "grid": [
+      [
+        "OVER",
+        "POWER",
+        "MAN",
+        "POLICE",
+        "VINE"
+      ],
+      [
+        "HOLD",
+        "HOUSE",
+        "VOICE",
+        "PENT",
+        "DRAGON"
+      ],
+      [
+        "OUT",
+        "DOOR",
+        "PLACE",
+        "BURGER",
+        "CHALK"
+      ],
+      [
+        "OFFICE",
+        "BELL",
+        "TOWER",
+        "PATH",
+        "BRIDGE"
+      ],
+      [
+        "SKIN",
+        "AGE",
+        "SUMMER",
+        "JAM",
+        "SPEED"
+      ]
+    ],
+    "start": [
+      0,
+      3
+    ],
+    "end": [
+      3,
+      2
+    ],
+    "solution": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
       ],
       [
         1,
         0
       ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "POLICE",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "DOOR"
+      ],
+      [
+        "DOOR",
+        "BELL"
+      ],
+      [
+        "BELL",
+        "TOWER"
+      ]
+    ]
+  },
+  "2026-11-18": {
+    "grid": [
+      [
+        "TAP",
+        "FRESH",
+        "SUB",
+        "SPREAD",
+        "COURSE"
+      ],
+      [
+        "SUPER",
+        "TALENT",
+        "ARM",
+        "WOOD",
+        "TOE"
+      ],
+      [
+        "THROW",
+        "SIDE",
+        "WALK",
+        "WORD",
+        "BULB"
+      ],
+      [
+        "BUS",
+        "HILL",
+        "UP",
+        "LINE",
+        "TIME"
+      ],
+      [
+        "STUDY",
+        "LINK",
+        "WILD",
+        "FLOWER",
+        "BED"
+      ]
+    ],
+    "start": [
+      4,
+      2
+    ],
+    "end": [
+      2,
+      2
+    ],
+    "solution": [
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "WILD",
+        "FLOWER"
+      ],
+      [
+        "FLOWER",
+        "BED"
+      ],
+      [
+        "BED",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "HILL"
+      ],
+      [
+        "HILL",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "WALK"
+      ]
+    ]
+  },
+  "2026-11-19": {
+    "grid": [
+      [
+        "ROAD",
+        "BLOCK",
+        "CHAIN",
+        "SMOKE",
+        "LADDER"
+      ],
+      [
+        "LOT",
+        "SKATE",
+        "BARE",
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "CORN",
+        "RACE",
+        "CARD",
+        "SOUL",
+        "BOY"
+      ],
+      [
+        "RUNNER",
+        "INK",
+        "SHOT",
+        "STOOL",
+        "SCOUT"
+      ],
+      [
+        "CROCK",
+        "CAMP",
+        "KNOB",
+        "BATTLE",
+        "MASTER"
+      ]
+    ],
+    "start": [
+      0,
+      0
+    ],
+    "end": [
+      4,
+      4
+    ],
+    "solution": [
       [
         0,
         0
@@ -16610,7 +17804,1241 @@
         2
       ],
       [
+        0,
+        3
+      ],
+      [
         1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "ROAD",
+        "BLOCK"
+      ],
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "BOY"
+      ],
+      [
+        "BOY",
+        "SCOUT"
+      ],
+      [
+        "SCOUT",
+        "MASTER"
+      ]
+    ]
+  },
+  "2026-11-20": {
+    "grid": [
+      [
+        "TRACK",
+        "KEY",
+        "TOWN",
+        "SHIP",
+        "SHELF"
+      ],
+      [
+        "PEEP",
+        "JIGSAW",
+        "DOWN",
+        "YARD",
+        "STICK"
+      ],
+      [
+        "FEED",
+        "BOOK",
+        "MARK",
+        "TIP",
+        "BY"
+      ],
+      [
+        "FRAME",
+        "WORK",
+        "NET",
+        "HONEY",
+        "OFF"
+      ],
+      [
+        "PICTURE",
+        "CUFF",
+        "CLAW",
+        "CURB",
+        "BOARD"
+      ]
+    ],
+    "start": [
+      4,
+      0
+    ],
+    "end": [
+      1,
+      4
+    ],
+    "solution": [
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "PICTURE",
+        "FRAME"
+      ],
+      [
+        "FRAME",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "SHIP"
+      ],
+      [
+        "SHIP",
+        "YARD"
+      ],
+      [
+        "YARD",
+        "STICK"
+      ]
+    ]
+  },
+  "2026-11-21": {
+    "grid": [
+      [
+        "SCORE",
+        "BUNK",
+        "CANDY",
+        "LIGHT",
+        "STOP"
+      ],
+      [
+        "RIDE",
+        "MAN",
+        "POWER",
+        "HOUSE",
+        "BACK"
+      ],
+      [
+        "PACK",
+        "DOOR",
+        "GARAGE",
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "LUNCH",
+        "LASH",
+        "LIME",
+        "ROCK",
+        "PORT"
+      ],
+      [
+        "FLOOR",
+        "FINGER",
+        "WINTER",
+        "MOVIE",
+        "FLAG"
+      ]
+    ],
+    "start": [
+      2,
+      2
+    ],
+    "end": [
+      0,
+      3
+    ],
+    "solution": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "GARAGE",
+        "DOOR"
+      ],
+      [
+        "DOOR",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "BACK"
+      ],
+      [
+        "BACK",
+        "STOP"
+      ],
+      [
+        "STOP",
+        "LIGHT"
+      ]
+    ]
+  },
+  "2026-11-22": {
+    "grid": [
+      [
+        "LOCKER",
+        "FLY",
+        "MAIL",
+        "WALK",
+        "SIDE"
+      ],
+      [
+        "HANG",
+        "FRIEND",
+        "HAND",
+        "RAIL",
+        "WAY"
+      ],
+      [
+        "PIGEON",
+        "CLIP",
+        "RIGHT",
+        "AGE",
+        "LIMIT"
+      ],
+      [
+        "PUNCH",
+        "LINE",
+        "UP",
+        "BALL",
+        "PRINT"
+      ],
+      [
+        "BROOM",
+        "LOOSE",
+        "ART",
+        "FAIR",
+        "SAW"
+      ]
+    ],
+    "start": [
+      3,
+      0
+    ],
+    "end": [
+      0,
+      3
+    ],
+    "solution": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "PUNCH",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "RAIL"
+      ],
+      [
+        "RAIL",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "WALK"
+      ]
+    ]
+  },
+  "2026-11-23": {
+    "grid": [
+      [
+        "DASH",
+        "CROSS",
+        "ROAD",
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "CANDLE",
+        "NEWS",
+        "BLOCK",
+        "CHAIN",
+        "PLAY"
+      ],
+      [
+        "NORTH",
+        "HAIR",
+        "SEE",
+        "GRANOLA",
+        "ROOM"
+      ],
+      [
+        "HOLDER",
+        "TAG",
+        "FRUIT",
+        "HOT",
+        "MATE"
+      ],
+      [
+        "BUSTER",
+        "BAG",
+        "BURN",
+        "FALL",
+        "HEAT"
+      ]
+    ],
+    "start": [
+      0,
+      1
+    ],
+    "end": [
+      3,
+      4
+    ],
+    "solution": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "CROSS",
+        "ROAD"
+      ],
+      [
+        "ROAD",
+        "BLOCK"
+      ],
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "ROOM"
+      ],
+      [
+        "ROOM",
+        "MATE"
+      ]
+    ]
+  },
+  "2026-11-24": {
+    "grid": [
+      [
+        "BERRY",
+        "BONE",
+        "RAIN",
+        "AIR",
+        "HAY"
+      ],
+      [
+        "HILL",
+        "TOP",
+        "IN",
+        "TAP",
+        "WIRE"
+      ],
+      [
+        "DOWN",
+        "MARK",
+        "HALL",
+        "DANCE",
+        "WOLF"
+      ],
+      [
+        "LOFT",
+        "DUST",
+        "CLUB",
+        "FAST",
+        "PLAN"
+      ],
+      [
+        "CUP",
+        "GAME",
+        "BOX",
+        "COAT",
+        "HOCKEY"
+      ]
+    ],
+    "start": [
+      0,
+      4
+    ],
+    "end": [
+      1,
+      1
+    ],
+    "solution": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "connections": [
+      [
+        "HAY",
+        "WIRE"
+      ],
+      [
+        "WIRE",
+        "TAP"
+      ],
+      [
+        "TAP",
+        "DANCE"
+      ],
+      [
+        "DANCE",
+        "HALL"
+      ],
+      [
+        "HALL",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "HILL"
+      ],
+      [
+        "HILL",
+        "TOP"
+      ]
+    ]
+  },
+  "2026-11-25": {
+    "grid": [
+      [
+        "STAGE",
+        "SLEEP",
+        "BUZZ",
+        "CASE",
+        "KILL"
+      ],
+      [
+        "DOG",
+        "FLAT",
+        "SPOT",
+        "MAKER",
+        "PIN"
+      ],
+      [
+        "WATCH",
+        "EAGLE",
+        "LIGHT",
+        "GOAL",
+        "SHADE"
+      ],
+      [
+        "STOP",
+        "HOLD",
+        "HOUSE",
+        "SUN",
+        "POND"
+      ],
+      [
+        "BACK",
+        "OUT",
+        "CAT",
+        "TAIL",
+        "CARD"
+      ]
+    ],
+    "start": [
+      1,
+      2
+    ],
+    "end": [
+      1,
+      0
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "connections": [
+      [
+        "SPOT",
+        "LIGHT"
+      ],
+      [
+        "LIGHT",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "BACK"
+      ],
+      [
+        "BACK",
+        "STOP"
+      ],
+      [
+        "STOP",
+        "WATCH"
+      ],
+      [
+        "WATCH",
+        "DOG"
+      ]
+    ]
+  },
+  "2026-11-26": {
+    "grid": [
+      [
+        "RISE",
+        "ROOT",
+        "LAY",
+        "HOG",
+        "RACE"
+      ],
+      [
+        "JUNK",
+        "PIGGY",
+        "UP",
+        "LINE",
+        "LACE"
+      ],
+      [
+        "SEA",
+        "LAUNDRY",
+        "TOWN",
+        "TIME",
+        "BED"
+      ],
+      [
+        "AGE",
+        "WRECK",
+        "SHIP",
+        "SNAP",
+        "RIVER"
+      ],
+      [
+        "WILL",
+        "BREAK",
+        "UNDER",
+        "SPEED",
+        "GULL"
+      ]
+    ],
+    "start": [
+      3,
+      4
+    ],
+    "end": [
+      3,
+      0
+    ],
+    "solution": [
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "connections": [
+      [
+        "RIVER",
+        "BED"
+      ],
+      [
+        "BED",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "SHIP"
+      ],
+      [
+        "SHIP",
+        "WRECK"
+      ],
+      [
+        "WRECK",
+        "AGE"
+      ]
+    ]
+  },
+  "2026-11-27": {
+    "grid": [
+      [
+        "ICE",
+        "SHAKE",
+        "WATER",
+        "FORCE",
+        "MILE"
+      ],
+      [
+        "WILD",
+        "BELL",
+        "BAR",
+        "DROP",
+        "DUMB"
+      ],
+      [
+        "COPY",
+        "BOY",
+        "SIDE",
+        "WAY",
+        "CAKE"
+      ],
+      [
+        "HOOD",
+        "SCOUT",
+        "MASTER",
+        "WALK",
+        "BOARD"
+      ],
+      [
+        "TRAP",
+        "DESERT",
+        "SHOT",
+        "WELL",
+        "CLIP"
+      ]
+    ],
+    "start": [
+      4,
+      4
+    ],
+    "end": [
+      3,
+      2
+    ],
+    "solution": [
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "CLIP",
+        "BOARD"
+      ],
+      [
+        "BOARD",
+        "WALK"
+      ],
+      [
+        "WALK",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "BAR"
+      ],
+      [
+        "BAR",
+        "BELL"
+      ],
+      [
+        "BELL",
+        "BOY"
+      ],
+      [
+        "BOY",
+        "SCOUT"
+      ],
+      [
+        "SCOUT",
+        "MASTER"
+      ]
+    ]
+  },
+  "2026-11-28": {
+    "grid": [
+      [
+        "RUN",
+        "LUCK",
+        "MEAT",
+        "DEW",
+        "BULB"
+      ],
+      [
+        "BLOCK",
+        "CHAIN",
+        "CLOSET",
+        "DAY",
+        "LIP"
+      ],
+      [
+        "TREE",
+        "SMOKE",
+        "SCREEN",
+        "PLAY",
+        "GROUND"
+      ],
+      [
+        "JACK",
+        "NET",
+        "LAMP",
+        "RECYCLING",
+        "WORK"
+      ],
+      [
+        "WIND",
+        "SLIDE",
+        "POINT",
+        "POWER",
+        "MAN"
+      ]
+    ],
+    "start": [
+      1,
+      0
+    ],
+    "end": [
+      4,
+      3
+    ],
+    "solution": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "GROUND"
+      ],
+      [
+        "GROUND",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ]
+    ]
+  },
+  "2026-11-29": {
+    "grid": [
+      [
+        "TOWER",
+        "BROOM",
+        "BARE",
+        "TOE",
+        "STEP"
+      ],
+      [
+        "PUNCH",
+        "COUNTRY",
+        "HILL",
+        "DOWN",
+        "MARK"
+      ],
+      [
+        "STAIR",
+        "BATH",
+        "TOP",
+        "DANCE",
+        "HALL"
+      ],
+      [
+        "COOK",
+        "HEAT",
+        "JAY",
+        "TAP",
+        "WIRE"
+      ],
+      [
+        "KNOB",
+        "JUKE",
+        "TUG",
+        "FINISH",
+        "BARB"
+      ]
+    ],
+    "start": [
+      4,
+      4
+    ],
+    "end": [
+      2,
+      2
+    ],
+    "solution": [
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
         2
       ]
     ],
@@ -16649,42 +19077,42 @@
       ]
     ]
   },
-  "2026-11-10": {
+  "2026-11-30": {
     "grid": [
       [
-        "WORD",
-        "CARD",
-        "WALL",
-        "SNAP",
-        "POT"
+        "ROOM",
+        "MATE",
+        "METER",
+        "MADE",
+        "SHINE"
       ],
       [
-        "BOARD",
-        "CUP",
-        "CASE",
-        "SLEEP",
-        "PIPE"
-      ],
-      [
-        "WALK",
-        "OUT",
-        "BUZZ",
-        "STORM",
-        "MOON"
+        "BALL",
+        "SAIL",
+        "ANT",
+        "GRAVE",
+        "SALE"
       ],
       [
         "FIRE",
-        "BACK",
-        "SAW",
-        "STEP",
-        "SUN"
+        "BOAT",
+        "HOUSE",
+        "MAT",
+        "SHOP"
       ],
       [
-        "WORK",
-        "ROOM",
-        "MATE",
-        "JACK",
-        "DOG"
+        "BACK",
+        "OUT",
+        "HOLD",
+        "WEIGHT",
+        "SKATE"
+      ],
+      [
+        "SPREAD",
+        "CLAW",
+        "ROW",
+        "MAIL",
+        "SURF"
       ]
     ],
     "start": [
@@ -16692,8 +19120,8 @@
       1
     ],
     "end": [
-      4,
-      2
+      0,
+      1
     ],
     "solution": [
       [
@@ -16701,49 +19129,57 @@
         1
       ],
       [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
         1,
         0
       ],
       [
-        2,
+        0,
         0
       ],
       [
-        2,
+        0,
         1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        2
       ]
     ],
     "connections": [
       [
-        "CUP",
-        "BOARD"
+        "SAIL",
+        "BOAT"
       ],
       [
-        "BOARD",
-        "WALK"
+        "BOAT",
+        "HOUSE"
       ],
       [
-        "WALK",
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
         "OUT"
       ],
       [
@@ -16756,10 +19192,10 @@
       ],
       [
         "FIRE",
-        "WORK"
+        "BALL"
       ],
       [
-        "WORK",
+        "BALL",
         "ROOM"
       ],
       [
@@ -16768,46 +19204,165 @@
       ]
     ]
   },
-  "2026-11-11": {
+  "2026-12-01": {
     "grid": [
       [
+        "STRONG",
+        "EYE",
+        "BOW",
         "FREE",
-        "SHOE",
-        "BARE",
-        "LOCKER",
-        "OVER"
+        "LIST"
       ],
       [
-        "FLASH",
+        "GUN",
+        "GULL",
+        "LAND",
+        "BUBBLE",
+        "FORE"
+      ],
+      [
+        "LIFE",
         "SHELF",
-        "MADE",
-        "PACK",
-        "MILL"
+        "BOOK",
+        "PEN",
+        "SUMMER"
       ],
       [
-        "BLUE",
-        "COW",
-        "FLOWER",
-        "POWER",
-        "SCOUT"
+        "FOREST",
+        "GAME",
+        "HAND",
+        "LINE",
+        "TIME"
       ],
       [
-        "LUNCH",
-        "STONE",
-        "WAY",
-        "SIDE",
-        "BOY"
-      ],
-      [
-        "HAIR",
-        "BALL",
-        "PARK",
-        "BAR",
-        "BELL"
+        "HOP",
+        "MATCH",
+        "RIGHT",
+        "UP",
+        "STAR"
       ]
     ],
     "start": [
-      4,
+      2,
+      4
+    ],
+    "end": [
+      2,
+      0
+    ],
+    "solution": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "connections": [
+      [
+        "SUMMER",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "SHELF"
+      ],
+      [
+        "SHELF",
+        "LIFE"
+      ]
+    ]
+  },
+  "2026-12-02": {
+    "grid": [
+      [
+        "CHALK",
+        "BOARD",
+        "SIDE",
+        "BAR",
+        "BELL"
+      ],
+      [
+        "ARM",
+        "WALK",
+        "WAY",
+        "POLAR",
+        "BOY"
+      ],
+      [
+        "TOOL",
+        "POUR",
+        "MUD",
+        "ROCK",
+        "SCOUT"
+      ],
+      [
+        "NOTE",
+        "UNDER",
+        "CRAN",
+        "SAW",
+        "SEA"
+      ],
+      [
+        "POT",
+        "PROOF",
+        "JAM",
+        "FINGER",
+        "TEAM"
+      ]
+    ],
+    "start": [
+      0,
       0
     ],
     "end": [
@@ -16816,35 +19371,35 @@
     ],
     "solution": [
       [
-        4,
+        0,
         0
       ],
       [
-        4,
+        0,
         1
       ],
       [
-        4,
+        1,
+        1
+      ],
+      [
+        1,
         2
       ],
       [
-        3,
+        0,
         2
       ],
       [
-        3,
+        0,
         3
       ],
       [
-        4,
-        3
-      ],
-      [
-        4,
+        0,
         4
       ],
       [
-        3,
+        1,
         4
       ],
       [
@@ -16854,15 +19409,15 @@
     ],
     "connections": [
       [
-        "HAIR",
-        "BALL"
+        "CHALK",
+        "BOARD"
       ],
       [
-        "BALL",
-        "PARK"
+        "BOARD",
+        "WALK"
       ],
       [
-        "PARK",
+        "WALK",
         "WAY"
       ],
       [
@@ -16887,420 +19442,79 @@
       ]
     ]
   },
-  "2026-11-12": {
+  "2026-12-03": {
     "grid": [
       [
-        "TIP",
-        "FINGER",
-        "BUSTER",
-        "NET",
-        "CHECK"
+        "GUM",
+        "TEXT",
+        "GATE",
+        "TENDER",
+        "KIND"
       ],
       [
-        "TOE",
-        "FORE",
-        "ARM",
-        "INK",
+        "BLOCK",
+        "CHAIN",
+        "SMOKE",
+        "WARD",
+        "STROKE"
+      ],
+      [
+        "ROAD",
+        "STER",
+        "SCREEN",
+        "PLAY",
         "FRIEND"
       ],
       [
-        "HOLD",
-        "WRECK",
-        "AIR",
-        "VINE",
-        "KICK"
-      ],
-      [
-        "UP",
-        "DRAGON",
-        "WIFE",
-        "SPEED",
-        "CHALK"
-      ],
-      [
-        "RIGHT",
-        "HAND",
-        "BOOK",
-        "LIFE",
-        "LOFT"
-      ]
-    ],
-    "start": [
-      1,
-      1
-    ],
-    "end": [
-      4,
-      2
-    ],
-    "solution": [
-      [
-        1,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        2
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "BOOK"
-      ]
-    ]
-  },
-  "2026-11-13": {
-    "grid": [
-      [
-        "HAY",
-        "WIRE",
-        "RIVER",
-        "WEATHER",
-        "FEED"
-      ],
-      [
-        "FRAME",
-        "TAP",
-        "WATER",
-        "MARK",
-        "TAG"
-      ],
-      [
-        "BRIDGE",
-        "SHIP",
-        "TOWN",
-        "DOWN",
-        "AGE"
-      ],
-      [
-        "SHIELD",
-        "YARD",
-        "SHOW",
-        "WIND",
-        "GRADE"
-      ],
-      [
-        "POWDER",
-        "SPREAD",
-        "KNOB",
-        "BATH",
-        "RISE"
-      ]
-    ],
-    "start": [
-      0,
-      0
-    ],
-    "end": [
-      3,
-      1
-    ],
-    "solution": [
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
-      ]
-    ],
-    "connections": [
-      [
-        "HAY",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "MARK"
-      ],
-      [
-        "MARK",
-        "DOWN"
-      ],
-      [
-        "DOWN",
-        "TOWN"
-      ],
-      [
-        "TOWN",
-        "SHIP"
-      ],
-      [
-        "SHIP",
-        "YARD"
-      ]
-    ]
-  },
-  "2026-11-14": {
-    "grid": [
-      [
-        "BATTLE",
-        "PLOW",
-        "TREE",
-        "WATCH",
-        "TUG"
-      ],
-      [
-        "FOOT",
-        "MAIL",
-        "WELL",
-        "RACE",
-        "IN"
-      ],
-      [
-        "THRESH",
-        "TOWER",
-        "HOLDER",
-        "PLACE",
-        "WILD"
-      ],
-      [
-        "STAGE",
-        "SURF",
-        "BOARD",
-        "WORK",
-        "GROUND"
-      ],
-      [
-        "HOP",
-        "SPOT",
-        "WALK",
-        "OUT",
-        "BACK"
-      ]
-    ],
-    "start": [
-      3,
-      1
-    ],
-    "end": [
-      2,
-      2
-    ],
-    "solution": [
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        2
-      ]
-    ],
-    "connections": [
-      [
-        "SURF",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "BACK"
-      ],
-      [
-        "BACK",
-        "GROUND"
-      ],
-      [
-        "GROUND",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "PLACE"
-      ],
-      [
-        "PLACE",
-        "HOLDER"
-      ]
-    ]
-  },
-  "2026-11-15": {
-    "grid": [
-      [
-        "DRUM",
-        "MASTER",
-        "STACK",
-        "ROCK",
-        "MATCH"
-      ],
-      [
-        "EAGLE",
-        "FORCE",
-        "BASE",
-        "BAG",
-        "SAND"
-      ],
-      [
-        "HOUSE",
-        "PLAY",
-        "TEXT",
-        "GRAVE",
-        "COOK"
-      ],
-      [
-        "BOAT",
-        "SCREEN",
-        "SMOKE",
-        "CHAIN",
-        "LIST"
-      ],
-      [
-        "NEWS",
         "CROSS",
-        "ROAD",
-        "BLOCK",
-        "STUDY"
+        "TAIL",
+        "WORK",
+        "GROUND",
+        "FAST"
+      ],
+      [
+        "SHOOTING",
+        "SPRING",
+        "MAN",
+        "WORM",
+        "JUNK"
       ]
     ],
     "start": [
-      4,
-      1
-    ],
-    "end": [
       3,
       0
     ],
+    "end": [
+      4,
+      2
+    ],
     "solution": [
       [
-        4,
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
         1
       ],
       [
-        4,
+        1,
         2
       ],
       [
-        4,
+        2,
+        2
+      ],
+      [
+        2,
         3
       ],
       [
@@ -17312,20 +19526,8 @@
         2
       ],
       [
-        3,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
+        4,
+        2
       ]
     ],
     "connections": [
@@ -17355,347 +19557,121 @@
       ],
       [
         "PLAY",
-        "HOUSE"
+        "GROUND"
       ],
       [
-        "HOUSE",
-        "BOAT"
+        "GROUND",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "MAN"
       ]
     ]
   },
-  "2026-11-16": {
+  "2026-12-04": {
     "grid": [
       [
-        "LAMP",
-        "WORD",
-        "BASKET",
-        "BALL",
-        "PARK"
+        "WIRE",
+        "HAY",
+        "PLACE",
+        "CUTTER",
+        "STEP"
       ],
       [
-        "SAIL",
-        "SCOUT",
-        "BOY",
-        "SIDE",
-        "WAY"
+        "TAP",
+        "KEY",
+        "PACK",
+        "SHOW",
+        "REST"
       ],
       [
-        "LASH",
-        "SET",
-        "BELL",
-        "BAR",
-        "MILE"
+        "WATER",
+        "GARBAGE",
+        "STICK",
+        "STOOL",
+        "PLOW"
       ],
       [
-        "LOOP",
-        "COLOR",
-        "COUNTRY",
-        "ROOT",
-        "TALENT"
+        "MARK",
+        "DOWN",
+        "YARD",
+        "COME",
+        "FALL"
       ],
       [
-        "OFFICE",
-        "VIEW",
-        "TRAP",
-        "WARE",
-        "CAR"
+        "WIFE",
+        "TOWN",
+        "SHIP",
+        "BURGER",
+        "PARKING"
       ]
     ],
     "start": [
       0,
+      1
+    ],
+    "end": [
+      2,
       2
     ],
-    "end": [
-      1,
-      1
-    ],
     "solution": [
       [
         0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
         1
-      ]
-    ],
-    "connections": [
-      [
-        "BASKET",
-        "BALL"
       ],
       [
-        "BALL",
-        "PARK"
+        0,
+        0
       ],
       [
-        "PARK",
-        "WAY"
+        1,
+        0
       ],
       [
-        "WAY",
-        "SIDE"
+        2,
+        0
       ],
       [
-        "SIDE",
-        "BAR"
+        3,
+        0
       ],
       [
-        "BAR",
-        "BELL"
+        3,
+        1
       ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ]
-    ]
-  },
-  "2026-11-17": {
-    "grid": [
-      [
-        "FLY",
-        "LOFT",
-        "COURT",
-        "POLICE",
-        "LUNCH"
-      ],
-      [
-        "WEIGHT",
-        "RIDE",
-        "CURB",
-        "RAIL",
-        "HAND"
-      ],
-      [
-        "MAKER",
-        "PRINT",
-        "HOLD",
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "NAP",
-        "SHOT",
-        "TOE",
-        "TIP",
-        "FINGER"
-      ],
-      [
-        "HALL",
-        "SHINE",
-        "NET",
-        "TIME",
-        "FORE"
-      ]
-    ],
-    "start": [
-      4,
-      4
-    ],
-    "end": [
-      1,
-      3
-    ],
-    "solution": [
       [
         4,
-        4
+        1
       ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "RAIL"
-      ]
-    ]
-  },
-  "2026-11-18": {
-    "grid": [
-      [
-        "HIGH",
-        "YARD",
-        "SHIP",
-        "TOWN",
-        "DOWN"
-      ],
-      [
-        "GUM",
-        "STICK",
-        "REST",
-        "FARM",
-        "MARK"
-      ],
-      [
-        "GUN",
-        "CUFF",
-        "WRECK",
-        "PEN",
-        "BOOK"
-      ],
-      [
-        "STOOL",
-        "BUNK",
-        "LIGHT",
-        "PASS",
-        "CHECK"
-      ],
-      [
-        "CHAIR",
-        "CHOP",
-        "SUB",
-        "STAIRS",
-        "RAIN"
-      ]
-    ],
-    "start": [
-      4,
-      4
-    ],
-    "end": [
-      1,
-      1
-    ],
-    "solution": [
       [
         4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
         2
       ],
       [
-        0,
-        1
+        3,
+        2
       ],
       [
-        1,
-        1
+        2,
+        2
       ]
     ],
     "connections": [
       [
-        "RAIN",
-        "CHECK"
+        "HAY",
+        "WIRE"
       ],
       [
-        "CHECK",
-        "BOOK"
+        "WIRE",
+        "TAP"
       ],
       [
-        "BOOK",
+        "TAP",
+        "WATER"
+      ],
+      [
+        "WATER",
         "MARK"
       ],
       [
@@ -17720,109 +19696,113 @@
       ]
     ]
   },
-  "2026-11-19": {
+  "2026-12-05": {
     "grid": [
       [
-        "CHILD",
-        "BED",
-        "LUCK",
-        "COAT",
-        "STRONG"
+        "LIGHT",
+        "STOP",
+        "BACK",
+        "SET",
+        "TENNIS"
       ],
       [
-        "STEP",
-        "DOOR",
+        "HOUSE",
+        "MAY",
+        "CHEESE",
+        "LIMIT",
+        "WRIGHT"
+      ],
+      [
+        "HOLD",
         "OUT",
-        "ARM",
-        "FLAG"
+        "DOOR",
+        "KNOB",
+        "SLEEP"
       ],
       [
-        "TAP",
-        "WATER",
-        "FALL",
-        "PROOF",
-        "DUST"
+        "CUFF",
+        "VIEW",
+        "TUG",
+        "BASE",
+        "RACE"
       ],
       [
-        "WIRE",
-        "BARB",
-        "BLACK",
-        "PIGGY",
-        "RUNNER"
-      ],
-      [
-        "WEATHER",
-        "SNOW",
-        "SHOOTING",
-        "SHOW",
-        "HOME"
+        "OVER",
+        "FRAME",
+        "LASH",
+        "PORT",
+        "POST"
       ]
     ],
     "start": [
-      3,
-      1
+      0,
+      3
     ],
     "end": [
-      0,
-      0
+      2,
+      3
     ],
     "solution": [
       [
-        3,
-        1
+        0,
+        3
       ],
       [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
+        0,
         2
       ],
       [
-        1,
-        2
-      ],
-      [
-        1,
+        0,
         1
-      ],
-      [
-        1,
-        0
       ],
       [
         0,
         0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
       ]
     ],
     "connections": [
       [
-        "BARB",
-        "WIRE"
+        "SET",
+        "BACK"
       ],
       [
-        "WIRE",
-        "TAP"
+        "BACK",
+        "STOP"
       ],
       [
-        "TAP",
-        "WATER"
+        "STOP",
+        "LIGHT"
       ],
       [
-        "WATER",
-        "FALL"
+        "LIGHT",
+        "HOUSE"
       ],
       [
-        "FALL",
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
         "OUT"
       ],
       [
@@ -17831,67 +19811,194 @@
       ],
       [
         "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "CHILD"
+        "KNOB"
       ]
     ]
   },
-  "2026-11-20": {
+  "2026-12-06": {
     "grid": [
       [
-        "WOOD",
-        "BARE",
-        "STORE",
-        "WORM",
-        "FARE"
+        "UP",
+        "RIGHT",
+        "HAND",
+        "BALL",
+        "BENCH"
       ],
       [
-        "PIN",
-        "CLASS",
-        "WORK",
-        "HOUSE",
-        "POWER"
+        "LINE",
+        "TIME",
+        "BED",
+        "PARK",
+        "LAND"
       ],
       [
-        "VOICE",
-        "MATE",
-        "ROOM",
-        "RUN",
-        "MAN"
+        "FLOOD",
+        "STORM",
+        "WORD",
+        "FAIR",
+        "FLOWER"
       ],
       [
-        "MAIL",
-        "DAY",
-        "CORN",
-        "BOX",
-        "POST"
+        "HAM",
+        "HOME",
+        "WARE",
+        "THROW",
+        "RIVER"
       ],
       [
-        "ICE",
-        "JUKE",
-        "OFF",
-        "TAIL",
-        "GATE"
+        "FLOOR",
+        "MEET",
+        "BUNK",
+        "COW",
+        "SWORD"
       ]
     ],
     "start": [
-      4,
-      3
+      1,
+      2
     ],
     "end": [
-      2,
+      1,
+      4
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "BED",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ]
+    ]
+  },
+  "2026-12-07": {
+    "grid": [
+      [
+        "WEATHER",
+        "MILE",
+        "CHAIR",
+        "BOARD",
+        "SCORE"
+      ],
+      [
+        "CURB",
+        "PASS",
+        "HANG",
+        "WALK",
+        "WAY"
+      ],
+      [
+        "TOP",
+        "CLIP",
+        "SIZE",
+        "CHILD",
+        "SIDE"
+      ],
+      [
+        "SHOT",
+        "LOOP",
+        "FISH",
+        "CANE",
+        "BAR"
+      ],
+      [
+        "MELON",
+        "MASTER",
+        "SCOUT",
+        "BOY",
+        "BELL"
+      ]
+    ],
+    "start": [
+      0,
+      4
+    ],
+    "end": [
+      4,
       1
     ],
     "solution": [
       [
-        4,
+        0,
+        4
+      ],
+      [
+        0,
         3
       ],
       [
-        4,
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
         4
       ],
       [
@@ -17899,283 +20006,25 @@
         4
       ],
       [
-        2,
+        4,
         4
       ],
       [
-        1,
-        4
-      ],
-      [
-        1,
+        4,
         3
       ],
       [
-        1,
+        4,
         2
       ],
       [
-        2,
-        2
-      ],
-      [
-        2,
+        4,
         1
       ]
     ],
     "connections": [
-      [
-        "TAIL",
-        "GATE"
-      ],
-      [
-        "GATE",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "ROOM"
-      ],
-      [
-        "ROOM",
-        "MATE"
-      ]
-    ]
-  },
-  "2026-11-21": {
-    "grid": [
-      [
-        "BLOCK",
-        "CHAIN",
-        "SMOKE",
-        "STAGE",
-        "SAW"
-      ],
-      [
-        "ROAD",
-        "IN",
-        "SCREEN",
-        "HOLE",
-        "BRIDGE"
-      ],
-      [
-        "LAND",
-        "KICK",
-        "PLAY",
-        "SEA",
-        "BASE"
-      ],
-      [
-        "STUDY",
-        "PIGEON",
-        "BACK",
-        "FIRE",
-        "CAT"
-      ],
-      [
-        "MOVIE",
-        "COPY",
-        "TOP",
-        "PLACE",
-        "MAT"
-      ]
-    ],
-    "start": [
-      1,
-      0
-    ],
-    "end": [
-      4,
-      4
-    ],
-    "solution": [
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "ROAD",
-        "BLOCK"
-      ],
-      [
-        "BLOCK",
-        "CHAIN"
-      ],
-      [
-        "CHAIN",
-        "SMOKE"
-      ],
-      [
-        "SMOKE",
-        "SCREEN"
-      ],
-      [
-        "SCREEN",
-        "PLAY"
-      ],
-      [
-        "PLAY",
-        "BACK"
-      ],
-      [
-        "BACK",
-        "FIRE"
-      ],
-      [
-        "FIRE",
-        "PLACE"
-      ],
-      [
-        "PLACE",
-        "MAT"
-      ]
-    ]
-  },
-  "2026-11-22": {
-    "grid": [
-      [
-        "STOP",
-        "LASH",
-        "GRAVE",
-        "SCHOOL",
-        "DRAW"
-      ],
-      [
-        "NAIL",
-        "KILL",
-        "SHADE",
-        "STONE",
-        "DASH"
-      ],
-      [
-        "FLOOR",
-        "SCOUT",
-        "MASTER",
-        "STAND",
-        "BOARD"
-      ],
-      [
-        "SHOE",
-        "BOY",
-        "BELL",
-        "BAR",
-        "WALK"
-      ],
       [
         "SCORE",
-        "TRAP",
-        "NOTE",
-        "SIDE",
-        "WAY"
-      ]
-    ],
-    "start": [
-      1,
-      4
-    ],
-    "end": [
-      2,
-      2
-    ],
-    "solution": [
-      [
-        1,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        2
-      ]
-    ],
-    "connections": [
-      [
-        "DASH",
         "BOARD"
       ],
       [
@@ -18212,321 +20061,75 @@
       ]
     ]
   },
-  "2026-11-23": {
+  "2026-12-08": {
     "grid": [
       [
-        "GREEN",
-        "LIP",
-        "TOOL",
-        "PARK",
-        "BALL"
-      ],
-      [
+        "FIRE",
         "PATH",
-        "BOW",
-        "STAIR",
-        "EYE",
-        "HAND"
-      ],
-      [
-        "JACK",
-        "MILL",
-        "SPREAD",
-        "FLOOD",
-        "RIGHT"
-      ],
-      [
-        "SUPER",
-        "TALENT",
-        "FINGER",
-        "TIP",
-        "UP"
-      ],
-      [
-        "UNDER",
-        "HOOK",
-        "FORE",
-        "TOE",
-        "HOLD"
-      ]
-    ],
-    "start": [
-      4,
-      2
-    ],
-    "end": [
-      0,
-      3
-    ],
-    "solution": [
-      [
-        4,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "BALL"
-      ],
-      [
-        "BALL",
-        "PARK"
-      ]
-    ]
-  },
-  "2026-11-24": {
-    "grid": [
-      [
-        "MELON",
-        "BONE",
-        "POWDER",
-        "WATER",
-        "FALL"
-      ],
-      [
-        "PEEP",
-        "DROP",
-        "PUT",
-        "TAP",
-        "OUT"
-      ],
-      [
-        "THRESH",
-        "BURN",
-        "BARB",
-        "WIRE",
-        "DOOR"
-      ],
-      [
-        "FLAKE",
-        "TREE",
-        "FAIR",
-        "LADDER",
-        "STEP"
-      ],
-      [
-        "HANG",
-        "STORM",
-        "AIR",
-        "POLICE",
-        "KIND"
-      ]
-    ],
-    "start": [
-      2,
-      2
-    ],
-    "end": [
-      3,
-      3
-    ],
-    "solution": [
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "BARB",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "FALL"
-      ],
-      [
-        "FALL",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "LADDER"
-      ]
-    ]
-  },
-  "2026-11-25": {
-    "grid": [
-      [
-        "CLIP",
-        "AGE",
-        "WRECK",
-        "TIME",
-        "DRUM"
-      ],
-      [
-        "FRESH",
-        "WATCH",
-        "SHIP",
-        "STAR",
-        "COOK"
-      ],
-      [
-        "SOUL",
-        "DOWN",
         "TOWN",
-        "CASE",
-        "DRIVE"
+        "DOWN",
+        "MARK"
       ],
       [
-        "LINK",
-        "MARK",
-        "BOOK",
-        "CROCK",
-        "BY"
+        "ROOT",
+        "BUZZ",
+        "SHIP",
+        "YARD",
+        "BOOK"
       ],
       [
-        "MADE",
-        "RAIN",
-        "CHECK",
-        "WRIGHT",
-        "BOWL"
+        "BUS",
+        "FARM",
+        "HALL",
+        "STICK",
+        "WORK"
+      ],
+      [
+        "NORTH",
+        "VIDEO",
+        "BLACK",
+        "GULL",
+        "TEAM"
+      ],
+      [
+        "HIGH",
+        "FLY",
+        "TRUCK",
+        "KICK",
+        "FLAG"
       ]
     ],
     "start": [
-      4,
-      1
+      3,
+      4
     ],
     "end": [
-      0,
-      1
+      2,
+      3
     ],
     "solution": [
       [
-        4,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
         3,
-        2
-      ],
-      [
-        3,
-        1
+        4
       ],
       [
         2,
-        1
+        4
       ],
       [
-        2,
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
         2
       ],
       [
@@ -18534,21 +20137,21 @@
         2
       ],
       [
-        0,
-        2
+        1,
+        3
       ],
       [
-        0,
-        1
+        2,
+        3
       ]
     ],
     "connections": [
       [
-        "RAIN",
-        "CHECK"
+        "TEAM",
+        "WORK"
       ],
       [
-        "CHECK",
+        "WORK",
         "BOOK"
       ],
       [
@@ -18569,66 +20172,201 @@
       ],
       [
         "SHIP",
-        "WRECK"
+        "YARD"
       ],
       [
-        "WRECK",
-        "AGE"
+        "YARD",
+        "STICK"
       ]
     ]
   },
-  "2026-11-26": {
+  "2026-12-09": {
     "grid": [
       [
-        "TAIL",
-        "LOOSE",
+        "BLOCK",
+        "CHAIN",
+        "SMOKE",
+        "NAP",
+        "PIGGY"
+      ],
+      [
+        "ROAD",
+        "RAIN",
+        "SCREEN",
+        "HOG",
+        "BRIDGE"
+      ],
+      [
+        "CROSS",
+        "HOCKEY",
+        "PLAY",
         "GROUND",
-        "PROOF",
-        "HILL"
+        "CASE"
       ],
       [
-        "GATE",
-        "POST",
-        "HAIR",
-        "CUFF",
-        "THROW"
+        "ISLAND",
+        "CHOP",
+        "STAR",
+        "TRAFFIC",
+        "LIST"
       ],
       [
-        "POWER",
-        "MAN",
-        "RIDE",
-        "LIME",
-        "GRADE"
-      ],
-      [
-        "HOUSE",
-        "WORK",
-        "LIGHT",
-        "HEAD",
-        "FRIEND"
-      ],
-      [
-        "KEY",
-        "ROOM",
-        "MATE",
-        "STORE",
-        "SHOOTING"
+        "STACK",
+        "ICE",
+        "CRAN",
+        "TAG",
+        "BY"
       ]
     ],
     "start": [
-      0,
+      2,
       0
     ],
     "end": [
-      4,
-      2
+      1,
+      3
     ],
     "solution": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
       [
         0,
         0
       ],
       [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "CROSS",
+        "ROAD"
+      ],
+      [
+        "ROAD",
+        "BLOCK"
+      ],
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "GROUND"
+      ],
+      [
+        "GROUND",
+        "HOG"
+      ]
+    ]
+  },
+  "2026-12-10": {
+    "grid": [
+      [
+        "SPEED",
+        "OFFICE",
+        "FARE",
+        "SAND",
+        "DRAGON"
+      ],
+      [
+        "HOLD",
+        "OUT",
+        "WATER",
+        "GRAVE",
+        "MILL"
+      ],
+      [
+        "HOUSE",
+        "DOOR",
+        "STEP",
+        "GUM",
+        "GAME"
+      ],
+      [
+        "POWER",
+        "LAMP",
+        "GATE",
+        "STAGE",
+        "SKIN"
+      ],
+      [
+        "MAN",
+        "POST",
+        "BOAT",
+        "PUZZLE",
+        "PLAN"
+      ]
+    ],
+    "start": [
+      3,
+      1
+    ],
+    "end": [
+      2,
+      2
+    ],
+    "solution": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
         1,
         0
       ],
@@ -18642,11 +20380,467 @@
       ],
       [
         2,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "LAMP",
+        "POST"
+      ],
+      [
+        "POST",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "DOOR"
+      ],
+      [
+        "DOOR",
+        "STEP"
+      ]
+    ]
+  },
+  "2026-12-11": {
+    "grid": [
+      [
+        "CAKE",
+        "BUSTER",
+        "SLIDE",
+        "BOWL",
+        "SLAP"
+      ],
+      [
+        "MOON",
+        "LOAD",
+        "LAND",
+        "LOT",
+        "FRUIT"
+      ],
+      [
+        "SPOT",
+        "STAIRS",
+        "PARK",
+        "BALL",
+        "PUNCH"
+      ],
+      [
+        "HOT",
+        "THRESH",
+        "CAR",
+        "HAND",
+        "LINE"
+      ],
+      [
+        "NAIL",
+        "JAM",
+        "BARE",
+        "RIGHT",
+        "UP"
+      ]
+    ],
+    "start": [
+      1,
+      4
+    ],
+    "end": [
+      0,
+      2
+    ],
+    "solution": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "FRUIT",
+        "PUNCH"
+      ],
+      [
+        "PUNCH",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ],
+      [
+        "LAND",
+        "SLIDE"
+      ]
+    ]
+  },
+  "2026-12-12": {
+    "grid": [
+      [
+        "HORSE",
+        "WRITING",
+        "STOP",
+        "COME",
+        "PIGEON"
+      ],
+      [
+        "LIP",
+        "BIN",
+        "HOOD",
+        "TAIL",
+        "SEE"
+      ],
+      [
+        "POWDER",
+        "BILL",
+        "BOARD",
+        "IN",
+        "PUT"
+      ],
+      [
+        "SCOUT",
+        "COLOR",
+        "WALK",
+        "WAY",
+        "FRESH"
+      ],
+      [
+        "BOY",
+        "BELL",
+        "BAR",
+        "SIDE",
+        "CLOSET"
+      ]
+    ],
+    "start": [
+      2,
+      1
+    ],
+    "end": [
+      3,
+      0
+    ],
+    "solution": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
         0
       ],
       [
         3,
         0
+      ]
+    ],
+    "connections": [
+      [
+        "BILL",
+        "BOARD"
+      ],
+      [
+        "BOARD",
+        "WALK"
+      ],
+      [
+        "WALK",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "BAR"
+      ],
+      [
+        "BAR",
+        "BELL"
+      ],
+      [
+        "BELL",
+        "BOY"
+      ],
+      [
+        "BOY",
+        "SCOUT"
+      ]
+    ]
+  },
+  "2026-12-13": {
+    "grid": [
+      [
+        "DANCE",
+        "HALL",
+        "MARK",
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TAP",
+        "WIRE",
+        "HAY",
+        "GREEN",
+        "SHIP"
+      ],
+      [
+        "RAIL",
+        "SUPER",
+        "HEAT",
+        "PICTURE",
+        "DRIVE"
+      ],
+      [
+        "HOLDER",
+        "STAND",
+        "WELL",
+        "STRANGLE",
+        "BONE"
+      ],
+      [
+        "CARD",
+        "WATCH",
+        "CANDY",
+        "POOL",
+        "AIR"
+      ]
+    ],
+    "start": [
+      1,
+      2
+    ],
+    "end": [
+      1,
+      4
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "HAY",
+        "WIRE"
+      ],
+      [
+        "WIRE",
+        "TAP"
+      ],
+      [
+        "TAP",
+        "DANCE"
+      ],
+      [
+        "DANCE",
+        "HALL"
+      ],
+      [
+        "HALL",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "SHIP"
+      ]
+    ]
+  },
+  "2026-12-14": {
+    "grid": [
+      [
+        "LIME",
+        "BLOCK",
+        "WOLF",
+        "LAY",
+        "WINTER"
+      ],
+      [
+        "SHELF",
+        "CHAIN",
+        "GRADE",
+        "SALE",
+        "SURF"
+      ],
+      [
+        "BOOK",
+        "SMOKE",
+        "JIGSAW",
+        "CAMP",
+        "DRUM"
+      ],
+      [
+        "WORK",
+        "SCREEN",
+        "DESERT",
+        "CLASS",
+        "CAT"
+      ],
+      [
+        "GROUND",
+        "PLAY",
+        "WOOD",
+        "GUN",
+        "HOLE"
+      ]
+    ],
+    "start": [
+      0,
+      1
+    ],
+    "end": [
+      1,
+      0
+    ],
+    "solution": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
       ],
       [
         3,
@@ -18658,6 +20852,613 @@
       ],
       [
         4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "connections": [
+      [
+        "BLOCK",
+        "CHAIN"
+      ],
+      [
+        "CHAIN",
+        "SMOKE"
+      ],
+      [
+        "SMOKE",
+        "SCREEN"
+      ],
+      [
+        "SCREEN",
+        "PLAY"
+      ],
+      [
+        "PLAY",
+        "GROUND"
+      ],
+      [
+        "GROUND",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "SHELF"
+      ]
+    ]
+  },
+  "2026-12-15": {
+    "grid": [
+      [
+        "SHOE",
+        "STONE",
+        "CORN",
+        "HOCKEY",
+        "BROOM"
+      ],
+      [
+        "BED",
+        "HOOK",
+        "FINGER",
+        "TIP",
+        "TOE"
+      ],
+      [
+        "POINT",
+        "LADDER",
+        "MATE",
+        "OUT",
+        "HOLD"
+      ],
+      [
+        "TEA",
+        "STUDY",
+        "OVER",
+        "DOOR",
+        "PEEP"
+      ],
+      [
+        "EAGLE",
+        "HOUSE",
+        "POWER",
+        "MAN",
+        "BREAK"
+      ]
+    ],
+    "start": [
+      1,
+      2
+    ],
+    "end": [
+      4,
+      1
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "connections": [
+      [
+        "FINGER",
+        "TIP"
+      ],
+      [
+        "TIP",
+        "TOE"
+      ],
+      [
+        "TOE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "DOOR"
+      ],
+      [
+        "DOOR",
+        "MAN"
+      ],
+      [
+        "MAN",
+        "POWER"
+      ],
+      [
+        "POWER",
+        "HOUSE"
+      ]
+    ]
+  },
+  "2026-12-16": {
+    "grid": [
+      [
+        "RASP",
+        "UP",
+        "LINE",
+        "TIME",
+        "SPRING"
+      ],
+      [
+        "HAND",
+        "RIGHT",
+        "BOX",
+        "FREE",
+        "HAIR"
+      ],
+      [
+        "BALL",
+        "PARK",
+        "LAND",
+        "SCORE",
+        "MOVIE"
+      ],
+      [
+        "FAN",
+        "SCHOOL",
+        "SKIN",
+        "CEILING",
+        "STRONG"
+      ],
+      [
+        "FINISH",
+        "STOOL",
+        "FRY",
+        "LOCKER",
+        "SUMMER"
+      ]
+    ],
+    "start": [
+      0,
+      4
+    ],
+    "end": [
+      2,
+      2
+    ],
+    "solution": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "SPRING",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "LINE"
+      ],
+      [
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ]
+    ]
+  },
+  "2026-12-17": {
+    "grid": [
+      [
+        "HILL",
+        "MAKER",
+        "VOICE",
+        "COUNTRY",
+        "RIDE"
+      ],
+      [
+        "DRAW",
+        "FLAKE",
+        "BATH",
+        "BELL",
+        "BOY"
+      ],
+      [
+        "TENDER",
+        "LAMP",
+        "SIDE",
+        "BAR",
+        "SCOUT"
+      ],
+      [
+        "VIDEO",
+        "VINE",
+        "WAY",
+        "CLIP",
+        "HANG"
+      ],
+      [
+        "NET",
+        "TRAFFIC",
+        "WALK",
+        "BOARD",
+        "MELON"
+      ]
+    ],
+    "start": [
+      3,
+      3
+    ],
+    "end": [
+      2,
+      4
+    ],
+    "solution": [
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "CLIP",
+        "BOARD"
+      ],
+      [
+        "BOARD",
+        "WALK"
+      ],
+      [
+        "WALK",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "BAR"
+      ],
+      [
+        "BAR",
+        "BELL"
+      ],
+      [
+        "BELL",
+        "BOY"
+      ],
+      [
+        "BOY",
+        "SCOUT"
+      ]
+    ]
+  },
+  "2026-12-18": {
+    "grid": [
+      [
+        "PENT",
+        "LIGHT",
+        "TRUCK",
+        "TOOL",
+        "LOOSE"
+      ],
+      [
+        "EYE",
+        "BARE",
+        "WRECK",
+        "SHIP",
+        "TOWN"
+      ],
+      [
+        "DASH",
+        "SKATE",
+        "STORE",
+        "BARB",
+        "DOWN"
+      ],
+      [
+        "STICK",
+        "GULL",
+        "BAG",
+        "WIRE",
+        "MARK"
+      ],
+      [
+        "POUR",
+        "LOAD",
+        "TALENT",
+        "TAP",
+        "WATER"
+      ]
+    ],
+    "start": [
+      2,
+      3
+    ],
+    "end": [
+      1,
+      2
+    ],
+    "solution": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "BARB",
+        "WIRE"
+      ],
+      [
+        "WIRE",
+        "TAP"
+      ],
+      [
+        "TAP",
+        "WATER"
+      ],
+      [
+        "WATER",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "SHIP"
+      ],
+      [
+        "SHIP",
+        "WRECK"
+      ]
+    ]
+  },
+  "2026-12-19": {
+    "grid": [
+      [
+        "THRESH",
+        "GRANOLA",
+        "BURN",
+        "SWORD",
+        "RUNNER"
+      ],
+      [
+        "POST",
+        "GATE",
+        "WEATHER",
+        "HOP",
+        "FEED"
+      ],
+      [
+        "MAN",
+        "TAIL",
+        "RIVER",
+        "STEP",
+        "TEXT"
+      ],
+      [
+        "POWER",
+        "ROCK",
+        "BACK",
+        "INK",
+        "SPOT"
+      ],
+      [
+        "HOUSE",
+        "HOLD",
+        "OUT",
+        "METER",
+        "NIP"
+      ]
+    ],
+    "start": [
+      2,
+      1
+    ],
+    "end": [
+      3,
+      2
+    ],
+    "solution": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
         2
       ]
     ],
@@ -18684,99 +21485,103 @@
       ],
       [
         "HOUSE",
-        "WORK"
+        "HOLD"
       ],
       [
-        "WORK",
-        "ROOM"
+        "HOLD",
+        "OUT"
       ],
       [
-        "ROOM",
-        "MATE"
+        "OUT",
+        "BACK"
       ]
     ]
   },
-  "2026-11-27": {
+  "2026-12-20": {
     "grid": [
       [
-        "BLOCK",
-        "CHAIN",
-        "SMOKE",
-        "SCREEN",
-        "DIP"
+        "FRENCH",
+        "NAP",
+        "MAT",
+        "PLACE",
+        "WORK"
       ],
       [
+        "BEAR",
+        "RECYCLING",
+        "HOT",
+        "COPY",
+        "GROUND"
+      ],
+      [
+        "BOW",
+        "REST",
+        "PORT",
+        "TRACK",
+        "PLAY"
+      ],
+      [
+        "VIEW",
+        "SNOW",
         "ROAD",
-        "SEA",
-        "WRITING",
-        "PLAY",
-        "NAP"
+        "BLOCK",
+        "SCREEN"
       ],
       [
-        "FLAG",
-        "PIPE",
-        "YARD",
-        "BACK",
-        "TRUCK"
-      ],
-      [
-        "SAND",
-        "RIVER",
-        "STICK",
-        "FEED",
-        "BUZZ"
-      ],
-      [
-        "FISH",
-        "POUR",
-        "RUNNER",
-        "BLACK",
-        "HOLDER"
+        "TREE",
+        "DRIVE",
+        "GOLF",
+        "CHAIN",
+        "SMOKE"
       ]
     ],
     "start": [
-      1,
-      0
+      3,
+      2
     ],
     "end": [
-      3,
+      0,
       2
     ],
     "solution": [
       [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
+        3,
         2
       ],
       [
         3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
         2
       ]
     ],
@@ -18803,87 +21608,71 @@
       ],
       [
         "PLAY",
-        "BACK"
+        "GROUND"
       ],
       [
-        "BACK",
-        "YARD"
+        "GROUND",
+        "WORK"
       ],
       [
-        "YARD",
-        "STICK"
+        "WORK",
+        "PLACE"
+      ],
+      [
+        "PLACE",
+        "MAT"
       ]
     ]
   },
-  "2026-11-28": {
+  "2026-12-21": {
     "grid": [
       [
-        "HORSE",
-        "CAT",
-        "WALK",
-        "WAY",
-        "PIGGY"
+        "TENNIS",
+        "SPREAD",
+        "STRANGLE",
+        "FLAT",
+        "CANDLE"
       ],
       [
-        "ANT",
-        "COPY",
-        "BAR",
-        "SIDE",
-        "LACE"
+        "TOWER",
+        "WRIGHT",
+        "STAND",
+        "BUZZ",
+        "SHOOTING"
       ],
       [
-        "BATTLE",
-        "MASTER",
-        "BELL",
+        "TIME",
+        "UP",
         "LINE",
-        "LUNCH"
+        "SHIELD",
+        "GRIZZLY"
       ],
       [
-        "SPEED",
-        "SCOUT",
-        "BOY",
-        "LUCK",
-        "DANCE"
+        "HAND",
+        "RIGHT",
+        "GOAL",
+        "HOOD",
+        "CHECK"
       ],
       [
-        "RAIL",
-        "POINT",
-        "CHILD",
-        "SKATE",
-        "FORCE"
+        "BALL",
+        "PARK",
+        "LAND",
+        "SLIDE",
+        "SUB"
       ]
     ],
     "start": [
-      1,
-      1
+      3,
+      2
     ],
     "end": [
-      2,
-      1
+      4,
+      3
     ],
     "solution": [
       [
-        1,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        1,
+        3,
         2
       ],
       [
@@ -18891,25 +21680,156 @@
         2
       ],
       [
+        2,
+        1
+      ],
+      [
         3,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
         2
       ],
       [
-        3,
-        1
-      ],
-      [
-        2,
-        1
+        4,
+        3
       ]
     ],
     "connections": [
       [
-        "COPY",
-        "CAT"
+        "GOAL",
+        "LINE"
       ],
       [
-        "CAT",
+        "LINE",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ],
+      [
+        "LAND",
+        "SLIDE"
+      ]
+    ]
+  },
+  "2026-12-22": {
+    "grid": [
+      [
+        "GARBAGE",
+        "MELON",
+        "FOREST",
+        "MARKET",
+        "CHALK"
+      ],
+      [
+        "SOUL",
+        "CROCK",
+        "FRIEND",
+        "MASTER",
+        "SCOUT"
+      ],
+      [
+        "WATCH",
+        "COURSE",
+        "JAY",
+        "WALK",
+        "BOY"
+      ],
+      [
+        "COURT",
+        "HIGH",
+        "GRAVE",
+        "WAY",
+        "BELL"
+      ],
+      [
+        "ROW",
+        "NAIL",
+        "PLAN",
+        "SIDE",
+        "BAR"
+      ]
+    ],
+    "start": [
+      2,
+      2
+    ],
+    "end": [
+      1,
+      3
+    ],
+    "solution": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "JAY",
         "WALK"
       ],
       [
@@ -18942,291 +21862,57 @@
       ]
     ]
   },
-  "2026-11-29": {
+  "2026-12-23": {
     "grid": [
       [
-        "FINGER",
-        "FORE",
-        "UP",
-        "RIGHT",
-        "RISE"
-      ],
-      [
-        "TIP",
-        "TOE",
-        "HOLD",
-        "HAND",
-        "COLOR"
-      ],
-      [
-        "WOLF",
-        "FIRE",
-        "SLEEP",
-        "BALL",
-        "WORD"
-      ],
-      [
-        "BARE",
-        "NET",
         "MATCH",
-        "LOAD",
-        "BATH"
+        "CHILD",
+        "SHINE",
+        "CARD",
+        "BOWL"
       ],
       [
-        "SCORE",
-        "BAG",
-        "HAY",
-        "SHOE",
-        "POND"
-      ]
-    ],
-    "start": [
-      0,
-      1
-    ],
-    "end": [
-      2,
-      3
-    ],
-    "solution": [
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "BALL"
-      ]
-    ]
-  },
-  "2026-11-30": {
-    "grid": [
-      [
-        "HOP",
-        "COAT",
-        "MELON",
-        "WELL",
-        "SHAKE"
-      ],
-      [
-        "VIEW",
-        "PIN",
-        "WALL",
-        "TOP",
-        "SHIELD"
-      ],
-      [
-        "PENT",
-        "WILL",
-        "NIP",
-        "HIGH",
-        "CARD"
-      ],
-      [
-        "LADDER",
-        "OUT",
-        "FALL",
-        "WATER",
-        "TAP"
-      ],
-      [
-        "STEP",
-        "DOOR",
-        "INK",
-        "BARB",
-        "WIRE"
-      ]
-    ],
-    "start": [
-      4,
-      3
-    ],
-    "end": [
-      3,
-      0
-    ],
-    "solution": [
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        3,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "BARB",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
+        "STOP",
+        "BUBBLE",
+        "LASH",
+        "PATH",
         "FALL"
       ],
       [
-        "FALL",
-        "OUT"
+        "SKIN",
+        "BLUE",
+        "SUN",
+        "PUT",
+        "SHOE"
       ],
       [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "LADDER"
-      ]
-    ]
-  },
-  "2026-12-01": {
-    "grid": [
-      [
-        "STOOL",
-        "BED",
-        "FLASH",
-        "BASKET",
-        "WARE"
-      ],
-      [
-        "ART",
-        "FLOWER",
-        "FARM",
-        "AGE",
-        "WRECK"
-      ],
-      [
-        "EYE",
+        "BOOK",
         "MARK",
         "DOWN",
-        "TOWN",
-        "SHIP"
+        "COLOR",
+        "STICK"
       ],
       [
         "NOTE",
-        "BOOK",
-        "BUSTER",
-        "BURN",
-        "CORN"
-      ],
-      [
         "FOOT",
-        "PEN",
-        "DAY",
-        "POWDER",
-        "VOICE"
+        "TOWN",
+        "SHIP",
+        "YARD"
       ]
     ],
     "start": [
       4,
-      0
+      1
     ],
     "end": [
-      1,
-      3
+      3,
+      4
     ],
     "solution": [
+      [
+        4,
+        1
+      ],
       [
         4,
         0
@@ -19240,28 +21926,24 @@
         1
       ],
       [
-        2,
-        1
-      ],
-      [
-        2,
+        3,
         2
       ],
       [
-        2,
+        4,
+        2
+      ],
+      [
+        4,
         3
       ],
       [
-        2,
+        4,
         4
       ],
       [
-        1,
+        3,
         4
-      ],
-      [
-        1,
-        3
       ]
     ],
     "connections": [
@@ -19291,2829 +21973,80 @@
       ],
       [
         "SHIP",
-        "WRECK"
-      ],
-      [
-        "WRECK",
-        "AGE"
-      ]
-    ]
-  },
-  "2026-12-02": {
-    "grid": [
-      [
-        "MARKET",
-        "WATCH",
-        "POWER",
-        "MAN",
-        "PARK"
-      ],
-      [
-        "FRAME",
-        "WORK",
-        "HOUSE",
-        "POST",
-        "GATE"
-      ],
-      [
-        "SHOT",
-        "PLACE",
-        "LAMP",
-        "LOOSE",
-        "TAIL"
-      ],
-      [
-        "TEAM",
-        "MAT",
-        "CURB",
-        "SNAP",
-        "TAG"
-      ],
-      [
-        "TREE",
-        "OVER",
-        "PLAN",
-        "SUPER",
-        "MAY"
-      ]
-    ],
-    "start": [
-      2,
-      4
-    ],
-    "end": [
-      3,
-      1
-    ],
-    "solution": [
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
-      ]
-    ],
-    "connections": [
-      [
-        "TAIL",
-        "GATE"
-      ],
-      [
-        "GATE",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "PLACE"
-      ],
-      [
-        "PLACE",
-        "MAT"
-      ]
-    ]
-  },
-  "2026-12-03": {
-    "grid": [
-      [
-        "STRANGLE",
-        "SEA",
-        "ICE",
-        "POUR",
-        "FARE"
-      ],
-      [
-        "STACK",
-        "BENCH",
-        "WORM",
-        "BACK",
-        "YARD"
-      ],
-      [
-        "WRIGHT",
-        "SHOP",
-        "FOREST",
-        "PLAY",
-        "STICK"
-      ],
-      [
-        "PIGEON",
-        "BILL",
-        "CROSS",
-        "SCREEN",
-        "SMOKE"
-      ],
-      [
-        "DOG",
-        "SCHOOL",
-        "ROAD",
-        "BLOCK",
-        "CHAIN"
-      ]
-    ],
-    "start": [
-      3,
-      2
-    ],
-    "end": [
-      2,
-      4
-    ],
-    "solution": [
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        2,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "CROSS",
-        "ROAD"
-      ],
-      [
-        "ROAD",
-        "BLOCK"
-      ],
-      [
-        "BLOCK",
-        "CHAIN"
-      ],
-      [
-        "CHAIN",
-        "SMOKE"
-      ],
-      [
-        "SMOKE",
-        "SCREEN"
-      ],
-      [
-        "SCREEN",
-        "PLAY"
-      ],
-      [
-        "PLAY",
-        "BACK"
-      ],
-      [
-        "BACK",
         "YARD"
       ],
       [
         "YARD",
         "STICK"
-      ]
-    ]
-  },
-  "2026-12-04": {
-    "grid": [
-      [
-        "STONE",
-        "POOL",
-        "PUT",
-        "DRAGON",
-        "SWORD"
-      ],
-      [
-        "SHINE",
-        "MASTER",
-        "HALL",
-        "COW",
-        "SHELF"
-      ],
-      [
-        "BOY",
-        "SCOUT",
-        "GUM",
-        "SUN",
-        "WRITING"
-      ],
-      [
-        "BELL",
-        "LOFT",
-        "SHOOTING",
-        "BOARD",
-        "CHALK"
-      ],
-      [
-        "BAR",
-        "SIDE",
-        "WAY",
-        "WALK",
-        "BLUE"
-      ]
-    ],
-    "start": [
-      3,
-      4
-    ],
-    "end": [
-      1,
-      1
-    ],
-    "solution": [
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "connections": [
-      [
-        "CHALK",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ],
-      [
-        "SCOUT",
-        "MASTER"
-      ]
-    ]
-  },
-  "2026-12-05": {
-    "grid": [
-      [
-        "FORE",
-        "MADE",
-        "FLAKE",
-        "CUFF",
-        "FISH"
-      ],
-      [
-        "FINGER",
-        "PORT",
-        "SHOE",
-        "MAKER",
-        "OFF"
-      ],
-      [
-        "TIP",
-        "MILE",
-        "ROOT",
-        "CUP",
-        "MILL"
-      ],
-      [
-        "TOE",
-        "SUB",
-        "MATE",
-        "FLAT",
-        "HILL"
-      ],
-      [
-        "HOLD",
-        "UP",
-        "RIGHT",
-        "HAND",
-        "BALL"
-      ]
-    ],
-    "start": [
-      0,
-      0
-    ],
-    "end": [
-      4,
-      4
-    ],
-    "solution": [
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "BALL"
-      ]
-    ]
-  },
-  "2026-12-06": {
-    "grid": [
-      [
-        "THRESH",
-        "DOOR",
-        "STEP",
-        "LADDER",
-        "TRUCK"
-      ],
-      [
-        "BATH",
-        "OUT",
-        "FALL",
-        "WATER",
-        "SHAKE"
-      ],
-      [
-        "WEATHER",
-        "JAY",
-        "JACK",
-        "TAP",
-        "STRONG"
-      ],
-      [
-        "KEY",
-        "EAGLE",
-        "SLEEP",
-        "WIRE",
-        "HAY"
-      ],
-      [
-        "WIFE",
-        "OFFICE",
-        "HONEY",
-        "KNOB",
-        "ROW"
-      ]
-    ],
-    "start": [
-      3,
-      4
-    ],
-    "end": [
-      0,
-      3
-    ],
-    "solution": [
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "HAY",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "FALL"
-      ],
-      [
-        "FALL",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "LADDER"
-      ]
-    ]
-  },
-  "2026-12-07": {
-    "grid": [
-      [
-        "SAIL",
-        "BUSTER",
-        "SHIP",
-        "TOWN",
-        "DOWN"
-      ],
-      [
-        "TOOL",
-        "LIFE",
-        "WRECK",
-        "WELL",
-        "MARK"
-      ],
-      [
-        "COUNTRY",
-        "STAGE",
-        "AGE",
-        "BONE",
-        "BOOK"
-      ],
-      [
-        "STAR",
-        "SAW",
-        "CAMP",
-        "RAIN",
-        "CHECK"
-      ],
-      [
-        "KILL",
-        "FREE",
-        "BAG",
-        "BARE",
-        "CHOP"
-      ]
-    ],
-    "start": [
-      3,
-      3
-    ],
-    "end": [
-      2,
-      2
-    ],
-    "solution": [
-      [
-        3,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ]
-    ],
-    "connections": [
-      [
-        "RAIN",
-        "CHECK"
-      ],
-      [
-        "CHECK",
-        "BOOK"
-      ],
-      [
-        "BOOK",
-        "MARK"
-      ],
-      [
-        "MARK",
-        "DOWN"
-      ],
-      [
-        "DOWN",
-        "TOWN"
-      ],
-      [
-        "TOWN",
-        "SHIP"
-      ],
-      [
-        "SHIP",
-        "WRECK"
-      ],
-      [
-        "WRECK",
-        "AGE"
-      ]
-    ]
-  },
-  "2026-12-08": {
-    "grid": [
-      [
-        "WORK",
-        "PLACE",
-        "HOLDER",
-        "WILD",
-        "LAMP"
-      ],
-      [
-        "HOUSE",
-        "PIGGY",
-        "GREEN",
-        "UNDER",
-        "POT"
-      ],
-      [
-        "POWER",
-        "TEA",
-        "TOWER",
-        "WILL",
-        "NIP"
-      ],
-      [
-        "MAN",
-        "POST",
-        "LINK",
-        "COURT",
-        "CAT"
-      ],
-      [
-        "RACE",
-        "GATE",
-        "TAIL",
-        "WIND",
-        "HOOK"
-      ]
-    ],
-    "start": [
-      4,
-      2
-    ],
-    "end": [
-      0,
-      2
-    ],
-    "solution": [
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ]
-    ],
-    "connections": [
-      [
-        "TAIL",
-        "GATE"
-      ],
-      [
-        "GATE",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "PLACE"
-      ],
-      [
-        "PLACE",
-        "HOLDER"
-      ]
-    ]
-  },
-  "2026-12-09": {
-    "grid": [
-      [
-        "BOARD",
-        "WALK",
-        "WAY",
-        "SNOW",
-        "PASS"
-      ],
-      [
-        "BILL",
-        "FLY",
-        "SIDE",
-        "IN",
-        "SPREAD"
-      ],
-      [
-        "BOY",
-        "BELL",
-        "BAR",
-        "BED",
-        "SCHOOL"
-      ],
-      [
-        "SCOUT",
-        "JUKE",
-        "SET",
-        "SHADE",
-        "COPY"
-      ],
-      [
-        "LASH",
-        "DRAW",
-        "GRADE",
-        "RUN",
-        "LOFT"
-      ]
-    ],
-    "start": [
-      1,
-      0
-    ],
-    "end": [
-      3,
-      0
-    ],
-    "solution": [
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "BILL",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ]
-    ]
-  },
-  "2026-12-10": {
-    "grid": [
-      [
-        "FIRE",
-        "BACK",
-        "RIVER",
-        "MARKET",
-        "CROSS"
-      ],
-      [
-        "TALENT",
-        "PLAY",
-        "SPEED",
-        "BOX",
-        "ROAD"
-      ],
-      [
-        "FORCE",
-        "SCREEN",
-        "SMOKE",
-        "CHAIN",
-        "BLOCK"
-      ],
-      [
-        "HAIR",
-        "COME",
-        "STRANGLE",
-        "STORE",
-        "FRIEND"
-      ],
-      [
-        "STOOL",
-        "DUST",
-        "STOP",
-        "MOON",
-        "WOLF"
-      ]
-    ],
-    "start": [
-      0,
-      4
-    ],
-    "end": [
-      0,
-      0
-    ],
-    "solution": [
-      [
-        0,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "CROSS",
-        "ROAD"
-      ],
-      [
-        "ROAD",
-        "BLOCK"
-      ],
-      [
-        "BLOCK",
-        "CHAIN"
-      ],
-      [
-        "CHAIN",
-        "SMOKE"
-      ],
-      [
-        "SMOKE",
-        "SCREEN"
-      ],
-      [
-        "SCREEN",
-        "PLAY"
-      ],
-      [
-        "PLAY",
-        "BACK"
-      ],
-      [
-        "BACK",
-        "FIRE"
-      ]
-    ]
-  },
-  "2026-12-11": {
-    "grid": [
-      [
-        "DUMB",
-        "REST",
-        "RISE",
-        "STORM",
-        "STUDY"
-      ],
-      [
-        "LUCK",
-        "JUNK",
-        "PRINT",
-        "DROP",
-        "WATCH"
-      ],
-      [
-        "SURF",
-        "MAT",
-        "PUT",
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "SHOT",
-        "GUN",
-        "FLOOD",
-        "HOLD",
-        "TOE"
-      ],
-      [
-        "TIME",
-        "HAND",
-        "RIGHT",
-        "UP",
-        "FRESH"
-      ]
-    ],
-    "start": [
-      2,
-      3
-    ],
-    "end": [
-      3,
-      0
-    ],
-    "solution": [
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "GUN"
-      ],
-      [
-        "GUN",
-        "SHOT"
-      ]
-    ]
-  },
-  "2026-12-12": {
-    "grid": [
-      [
-        "WORM",
-        "SLAP",
-        "LOCKER",
-        "FAIR",
-        "PACK"
-      ],
-      [
-        "HOOD",
-        "CLASS",
-        "KICK",
-        "LADDER",
-        "HAY"
-      ],
-      [
-        "DOG",
-        "HOME",
-        "SHINE",
-        "STEP",
-        "DOOR"
-      ],
-      [
-        "STONE",
-        "VIEW",
-        "WIRE",
-        "TAP",
-        "OUT"
-      ],
-      [
-        "DASH",
-        "LIST",
-        "BARB",
-        "WATER",
-        "FALL"
-      ]
-    ],
-    "start": [
-      4,
-      2
-    ],
-    "end": [
-      1,
-      3
-    ],
-    "solution": [
-      [
-        4,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "BARB",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "FALL"
-      ],
-      [
-        "FALL",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "LADDER"
-      ]
-    ]
-  },
-  "2026-12-13": {
-    "grid": [
-      [
-        "DOWN",
-        "MARK",
-        "BOOK",
-        "CHECK",
-        "RAIN"
-      ],
-      [
-        "TOWN",
-        "SHIP",
-        "YARD",
-        "STICK",
-        "MOVIE"
-      ],
-      [
-        "SIZE",
-        "PIGEON",
-        "CROCK",
-        "FRAME",
-        "INK"
-      ],
-      [
-        "MAIL",
-        "SUN",
-        "BASE",
-        "SAW",
-        "RAIL"
-      ],
-      [
-        "BULB",
-        "BUZZ",
-        "STAND",
-        "LIP",
-        "BALL"
-      ]
-    ],
-    "start": [
-      0,
-      4
-    ],
-    "end": [
-      1,
-      3
-    ],
-    "solution": [
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "RAIN",
-        "CHECK"
-      ],
-      [
-        "CHECK",
-        "BOOK"
-      ],
-      [
-        "BOOK",
-        "MARK"
-      ],
-      [
-        "MARK",
-        "DOWN"
-      ],
-      [
-        "DOWN",
-        "TOWN"
-      ],
-      [
-        "TOWN",
-        "SHIP"
-      ],
-      [
-        "SHIP",
-        "YARD"
-      ],
-      [
-        "YARD",
-        "STICK"
-      ]
-    ]
-  },
-  "2026-12-14": {
-    "grid": [
-      [
-        "BUNK",
-        "BOWL",
-        "TUG",
-        "TEXT",
-        "CHILD"
-      ],
-      [
-        "VINE",
-        "MATE",
-        "ROOM",
-        "BROOM",
-        "ROOT"
-      ],
-      [
-        "POWER",
-        "HOUSE",
-        "WORK",
-        "PATH",
-        "EAGLE"
-      ],
-      [
-        "MAN",
-        "POST",
-        "EYE",
-        "SUPER",
-        "WOOD"
-      ],
-      [
-        "TAIL",
-        "GATE",
-        "CAR",
-        "FEED",
-        "MELON"
-      ]
-    ],
-    "start": [
-      4,
-      0
-    ],
-    "end": [
-      1,
-      1
-    ],
-    "solution": [
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "connections": [
-      [
-        "TAIL",
-        "GATE"
-      ],
-      [
-        "GATE",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "ROOM"
-      ],
-      [
-        "ROOM",
-        "MATE"
-      ]
-    ]
-  },
-  "2026-12-15": {
-    "grid": [
-      [
-        "MASTER",
-        "SCOUT",
-        "SAIL",
-        "MILL",
-        "HORSE"
-      ],
-      [
-        "BELL",
-        "BOY",
-        "FISH",
-        "CASE",
-        "IN"
-      ],
-      [
-        "BAR",
-        "SIDE",
-        "STAIR",
-        "PROOF",
-        "HEAD"
-      ],
-      [
-        "WALK",
-        "WAY",
-        "WORD",
-        "TEAM",
-        "TRAP"
-      ],
-      [
-        "BOARD",
-        "SKATE",
-        "LOOP",
-        "NAIL",
-        "BOW"
-      ]
-    ],
-    "start": [
-      4,
-      1
-    ],
-    "end": [
-      0,
-      0
-    ],
-    "solution": [
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "SKATE",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ],
-      [
-        "SCOUT",
-        "MASTER"
-      ]
-    ]
-  },
-  "2026-12-16": {
-    "grid": [
-      [
-        "SMOKE",
-        "CHAIN",
-        "BLOCK",
-        "ROAD",
-        "BARE"
-      ],
-      [
-        "SCREEN",
-        "DAY",
-        "MEAT",
-        "CROSS",
-        "NEWS"
-      ],
-      [
-        "PLAY",
-        "WILD",
-        "LACE",
-        "CURB",
-        "FLAG"
-      ],
-      [
-        "BACK",
-        "CORN",
-        "BOAT",
-        "SAND",
-        "SEA"
-      ],
-      [
-        "GROUND",
-        "CUP",
-        "STACK",
-        "LAMP",
-        "RIVER"
-      ]
-    ],
-    "start": [
-      1,
-      3
-    ],
-    "end": [
-      4,
-      0
-    ],
-    "solution": [
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "CROSS",
-        "ROAD"
-      ],
-      [
-        "ROAD",
-        "BLOCK"
-      ],
-      [
-        "BLOCK",
-        "CHAIN"
-      ],
-      [
-        "CHAIN",
-        "SMOKE"
-      ],
-      [
-        "SMOKE",
-        "SCREEN"
-      ],
-      [
-        "SCREEN",
-        "PLAY"
-      ],
-      [
-        "PLAY",
-        "BACK"
-      ],
-      [
-        "BACK",
-        "GROUND"
-      ]
-    ]
-  },
-  "2026-12-17": {
-    "grid": [
-      [
-        "PEN",
-        "HOLE",
-        "TOE",
-        "TIP",
-        "PENT"
-      ],
-      [
-        "GUN",
-        "HAND",
-        "HOLD",
-        "FINGER",
-        "LINE"
-      ],
-      [
-        "WALL",
-        "RIGHT",
-        "UP",
-        "FORE",
-        "PIN"
-      ],
-      [
-        "FREE",
-        "HOP",
-        "DRIVE",
-        "BENCH",
-        "LOAD"
-      ],
-      [
-        "ICE",
-        "PLAN",
-        "SHOP",
-        "FARM",
-        "TAG"
-      ]
-    ],
-    "start": [
-      2,
-      3
-    ],
-    "end": [
-      1,
-      0
-    ],
-    "solution": [
-      [
-        2,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "RIGHT"
-      ],
-      [
-        "RIGHT",
-        "HAND"
-      ],
-      [
-        "HAND",
-        "GUN"
-      ]
-    ]
-  },
-  "2026-12-18": {
-    "grid": [
-      [
-        "WRECK",
-        "STOP",
-        "TAP",
-        "WATER",
-        "STOOL"
-      ],
-      [
-        "JAY",
-        "FARE",
-        "WIRE",
-        "FALL",
-        "STEP"
-      ],
-      [
-        "LIGHT",
-        "NET",
-        "BARB",
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "OFFICE",
-        "PACK",
-        "WEATHER",
-        "MADE",
-        "COOK"
-      ],
-      [
-        "FOOT",
-        "POOL",
-        "LIFE",
-        "GRAVE",
-        "COLOR"
-      ]
-    ],
-    "start": [
-      2,
-      2
-    ],
-    "end": [
-      0,
-      4
-    ],
-    "solution": [
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "BARB",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "FALL"
-      ],
-      [
-        "FALL",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
-        "STEP",
-        "STOOL"
-      ]
-    ]
-  },
-  "2026-12-19": {
-    "grid": [
-      [
-        "NAP",
-        "PUT",
-        "RIDE",
-        "WARE",
-        "BY"
-      ],
-      [
-        "CHECK",
-        "BOOK",
-        "PLACE",
-        "SUB",
-        "SHOW"
-      ],
-      [
-        "RAIN",
-        "MARK",
-        "DOWN",
-        "SHOE",
-        "AIR"
-      ],
-      [
-        "CARD",
-        "FIRE",
-        "TOWN",
-        "HALL",
-        "JACK"
-      ],
-      [
-        "DRAGON",
-        "CHAIR",
-        "SHIP",
-        "YARD",
-        "STICK"
-      ]
-    ],
-    "start": [
-      2,
-      0
-    ],
-    "end": [
-      4,
-      4
-    ],
-    "solution": [
-      [
-        2,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "RAIN",
-        "CHECK"
-      ],
-      [
-        "CHECK",
-        "BOOK"
-      ],
-      [
-        "BOOK",
-        "MARK"
-      ],
-      [
-        "MARK",
-        "DOWN"
-      ],
-      [
-        "DOWN",
-        "TOWN"
-      ],
-      [
-        "TOWN",
-        "SHIP"
-      ],
-      [
-        "SHIP",
-        "YARD"
-      ],
-      [
-        "YARD",
-        "STICK"
-      ]
-    ]
-  },
-  "2026-12-20": {
-    "grid": [
-      [
-        "ROOM",
-        "MATE",
-        "MAN",
-        "POST",
-        "SHADE"
-      ],
-      [
-        "WORK",
-        "HOUSE",
-        "POWER",
-        "GATE",
-        "FLOOD"
-      ],
-      [
-        "BONE",
-        "SOUL",
-        "MARKET",
-        "CHOP",
-        "BROOM"
-      ],
-      [
-        "PLOW",
-        "TALENT",
-        "STAND",
-        "PIGGY",
-        "FLAT"
-      ],
-      [
-        "HIGH",
-        "PORT",
-        "HANG",
-        "RUNNER",
-        "ANT"
-      ]
-    ],
-    "start": [
-      1,
-      4
-    ],
-    "end": [
-      0,
-      1
-    ],
-    "solution": [
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ]
-    ],
-    "connections": [
-      [
-        "FLOOD",
-        "GATE"
-      ],
-      [
-        "GATE",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "ROOM"
-      ],
-      [
-        "ROOM",
-        "MATE"
-      ]
-    ]
-  },
-  "2026-12-21": {
-    "grid": [
-      [
-        "DANCE",
-        "FLOOR",
-        "LIME",
-        "SLAP",
-        "OVER"
-      ],
-      [
-        "WALK",
-        "BOARD",
-        "FRESH",
-        "RUN",
-        "HONEY"
-      ],
-      [
-        "WAY",
-        "SIDE",
-        "WOLF",
-        "MAKER",
-        "BOX"
-      ],
-      [
-        "ARM",
-        "BAR",
-        "BELL",
-        "BOY",
-        "HAY"
-      ],
-      [
-        "RACE",
-        "BALL",
-        "DUST",
-        "CUFF",
-        "JUKE"
-      ]
-    ],
-    "start": [
-      0,
-      0
-    ],
-    "end": [
-      3,
-      3
-    ],
-    "solution": [
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "DANCE",
-        "FLOOR"
-      ],
-      [
-        "FLOOR",
-        "BOARD"
-      ],
-      [
-        "BOARD",
-        "WALK"
-      ],
-      [
-        "WALK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ]
-    ]
-  },
-  "2026-12-22": {
-    "grid": [
-      [
-        "KILL",
-        "FLY",
-        "BLUE",
-        "POWDER",
-        "PATH"
-      ],
-      [
-        "TRUCK",
-        "STAR",
-        "CURB",
-        "DROP",
-        "HEAD"
-      ],
-      [
-        "GUM",
-        "NAIL",
-        "MILE",
-        "WEIGHT",
-        "EAGLE"
-      ],
-      [
-        "BACK",
-        "PLAY",
-        "JUNK",
-        "BLOCK",
-        "ROAD"
-      ],
-      [
-        "GROUND",
-        "SCREEN",
-        "SMOKE",
-        "CHAIN",
-        "CROSS"
-      ]
-    ],
-    "start": [
-      4,
-      4
-    ],
-    "end": [
-      4,
-      0
-    ],
-    "solution": [
-      [
-        4,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "CROSS",
-        "ROAD"
-      ],
-      [
-        "ROAD",
-        "BLOCK"
-      ],
-      [
-        "BLOCK",
-        "CHAIN"
-      ],
-      [
-        "CHAIN",
-        "SMOKE"
-      ],
-      [
-        "SMOKE",
-        "SCREEN"
-      ],
-      [
-        "SCREEN",
-        "PLAY"
-      ],
-      [
-        "PLAY",
-        "BACK"
-      ],
-      [
-        "BACK",
-        "GROUND"
-      ]
-    ]
-  },
-  "2026-12-23": {
-    "grid": [
-      [
-        "LAND",
-        "STRANGLE",
-        "HOLD",
-        "TOE",
-        "TIP"
-      ],
-      [
-        "POUR",
-        "TRAP",
-        "UP",
-        "UNDER",
-        "FINGER"
-      ],
-      [
-        "POINT",
-        "GUN",
-        "SHOT",
-        "COME",
-        "FORE"
-      ],
-      [
-        "AGE",
-        "ROOT",
-        "FLOWER",
-        "CAMP",
-        "SAW"
-      ],
-      [
-        "NOTE",
-        "GRADE",
-        "WOOD",
-        "FLAKE",
-        "BATH"
-      ]
-    ],
-    "start": [
-      2,
-      4
-    ],
-    "end": [
-      2,
-      0
-    ],
-    "solution": [
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
-      ],
-      [
-        "FINGER",
-        "TIP"
-      ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "SHOT"
-      ],
-      [
-        "SHOT",
-        "GUN"
-      ],
-      [
-        "GUN",
-        "POINT"
       ]
     ]
   },
   "2026-12-24": {
     "grid": [
       [
-        "KIND",
-        "KICK",
-        "STOP",
-        "SHINE",
-        "ICE"
+        "VOICE",
+        "DIP",
+        "WOLF",
+        "SAND",
+        "POWDER"
       ],
       [
-        "LIP",
-        "TREE",
-        "TAP",
-        "WIRE",
-        "BARB"
+        "COW",
+        "CURB",
+        "PIGEON",
+        "HALL",
+        "SHADE"
       ],
       [
-        "TAIL",
-        "MEAT",
-        "WATER",
-        "LINK",
-        "WIFE"
-      ],
-      [
-        "PACK",
-        "WILL",
-        "FALL",
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "MOON",
-        "POLICE",
-        "FOREST",
-        "CHILD",
-        "STEP"
-      ]
-    ],
-    "start": [
-      1,
-      4
-    ],
-    "end": [
-      4,
-      3
-    ],
-    "solution": [
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        4,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "BARB",
-        "WIRE"
-      ],
-      [
-        "WIRE",
-        "TAP"
-      ],
-      [
-        "TAP",
-        "WATER"
-      ],
-      [
-        "WATER",
-        "FALL"
-      ],
-      [
-        "FALL",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ],
-      [
+        "PIPE",
+        "POWER",
+        "HORSE",
         "STEP",
-        "CHILD"
-      ]
-    ]
-  },
-  "2026-12-25": {
-    "grid": [
-      [
-        "LOFT",
-        "FISH",
-        "OFF",
-        "BATTLE",
-        "SEA"
-      ],
-      [
-        "ROCK",
-        "FEED",
-        "PEEP",
-        "SPEED",
-        "VOICE"
-      ],
-      [
-        "MARK",
-        "DOWN",
-        "WRITING",
-        "MAY",
         "DUMB"
       ],
       [
-        "BOOK",
-        "HILL",
-        "TIME",
-        "FIRE",
-        "CAT"
+        "CHEESE",
+        "HOUSE",
+        "RACE",
+        "DOOR",
+        "DAY"
       ],
       [
-        "WORK",
-        "HOUSE",
-        "POWER",
-        "MAN",
-        "DRIVE"
+        "PEN",
+        "HOLD",
+        "OUT",
+        "BACK",
+        "CLAW"
       ]
     ],
     "start": [
       3,
-      3
+      2
     ],
     "end": [
-      3,
-      1
+      2,
+      3
     ],
     "solution": [
       [
         3,
-        3
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
       ],
       [
         4,
-        3
+        1
       ],
       [
         4,
@@ -22121,36 +22054,24 @@
       ],
       [
         4,
-        1
-      ],
-      [
-        4,
-        0
+        3
       ],
       [
         3,
-        0
+        3
       ],
       [
         2,
-        0
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
+        3
       ]
     ],
     "connections": [
       [
-        "FIRE",
-        "MAN"
+        "RACE",
+        "HORSE"
       ],
       [
-        "MAN",
+        "HORSE",
         "POWER"
       ],
       [
@@ -22159,209 +22080,74 @@
       ],
       [
         "HOUSE",
-        "WORK"
+        "HOLD"
       ],
       [
-        "WORK",
-        "BOOK"
+        "HOLD",
+        "OUT"
       ],
       [
-        "BOOK",
-        "MARK"
+        "OUT",
+        "BACK"
       ],
       [
-        "MARK",
-        "DOWN"
-      ],
-      [
-        "DOWN",
-        "HILL"
-      ]
-    ]
-  },
-  "2026-12-26": {
-    "grid": [
-      [
-        "WAY",
-        "SIDE",
-        "BAR",
-        "BELL",
-        "BOY"
-      ],
-      [
-        "PARK",
-        "BALL",
-        "BASKET",
-        "MASTER",
-        "SCOUT"
-      ],
-      [
-        "HOME",
-        "DRAW",
-        "MATCH",
-        "CLASS",
-        "STONE"
-      ],
-      [
-        "COLOR",
-        "ROW",
-        "TOWER",
-        "DRUM",
-        "COOK"
-      ],
-      [
-        "SHELF",
-        "PORT",
-        "WARE",
-        "BLACK",
-        "BUZZ"
-      ]
-    ],
-    "start": [
-      1,
-      2
-    ],
-    "end": [
-      1,
-      3
-    ],
-    "solution": [
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ]
-    ],
-    "connections": [
-      [
-        "BASKET",
-        "BALL"
-      ],
-      [
-        "BALL",
-        "PARK"
-      ],
-      [
-        "PARK",
-        "WAY"
-      ],
-      [
-        "WAY",
-        "SIDE"
-      ],
-      [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
-        "BELL"
-      ],
-      [
-        "BELL",
-        "BOY"
-      ],
-      [
-        "BOY",
-        "SCOUT"
-      ],
-      [
-        "SCOUT",
-        "MASTER"
-      ]
-    ]
-  },
-  "2026-12-27": {
-    "grid": [
-      [
-        "VIEW",
-        "HOP",
-        "MAIL",
-        "SUN",
-        "BARE"
-      ],
-      [
-        "CAR",
-        "COPY",
-        "SHAKE",
-        "LADDER",
-        "KEY"
-      ],
-      [
-        "ROAD",
-        "MILL",
         "BACK",
-        "YARD",
-        "LOOSE"
+        "DOOR"
       ],
       [
-        "BLOCK",
-        "SCREEN",
-        "PLAY",
-        "STICK",
-        "POND"
+        "DOOR",
+        "STEP"
+      ]
+    ]
+  },
+  "2026-12-25": {
+    "grid": [
+      [
+        "HAIR",
+        "GUN",
+        "MILE",
+        "BOAT",
+        "BILL"
+      ],
+      [
+        "LACE",
+        "UP",
+        "HILL",
+        "LOT",
+        "WILL"
+      ],
+      [
+        "SMOKE",
+        "STACK",
+        "TOP",
+        "HEAD",
+        "OFFICE"
       ],
       [
         "CHAIN",
-        "SMOKE",
-        "LIME",
-        "HAIR",
-        "LOAD"
+        "BLOCK",
+        "CLUB",
+        "SCORE",
+        "MILL"
+      ],
+      [
+        "CROSS",
+        "ROAD",
+        "TEDDY",
+        "SIZE",
+        "POINT"
       ]
     ],
     "start": [
-      2,
+      4,
       0
     ],
     "end": [
-      3,
-      3
+      2,
+      2
     ],
     "solution": [
       [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
         4,
         0
       ],
@@ -22375,22 +22161,34 @@
       ],
       [
         3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
         2
       ],
       [
         2,
         2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        3,
-        3
       ]
     ],
     "connections": [
+      [
+        "CROSS",
+        "ROAD"
+      ],
       [
         "ROAD",
         "BLOCK"
@@ -22405,67 +22203,63 @@
       ],
       [
         "SMOKE",
-        "SCREEN"
+        "STACK"
       ],
       [
-        "SCREEN",
-        "PLAY"
+        "STACK",
+        "UP"
       ],
       [
-        "PLAY",
-        "BACK"
+        "UP",
+        "HILL"
       ],
       [
-        "BACK",
-        "YARD"
-      ],
-      [
-        "YARD",
-        "STICK"
+        "HILL",
+        "TOP"
       ]
     ]
   },
-  "2026-12-28": {
+  "2026-12-26": {
     "grid": [
       [
-        "FORE",
-        "FINGER",
-        "TIP",
-        "UP",
-        "TOWN"
+        "LIME",
+        "SUPER",
+        "KIND",
+        "PARKING",
+        "SUMMER"
       ],
       [
-        "BONE",
-        "BAG",
-        "TOE",
-        "HOLD",
-        "SHIP"
+        "FLASH",
+        "HONEY",
+        "STAIR",
+        "BREAK",
+        "JUKE"
       ],
       [
-        "CARD",
-        "POINT",
-        "GATE",
-        "BURN",
-        "WRECK"
+        "TAP",
+        "DANCE",
+        "FLOOR",
+        "HAY",
+        "DRAW"
       ],
       [
-        "BUSTER",
-        "WIND",
-        "GUN",
-        "CHALK",
-        "AGE"
+        "WIRE",
+        "BARB",
+        "BOARD",
+        "WALK",
+        "BAR"
       ],
       [
-        "COW",
-        "CUP",
-        "SLEEP",
-        "FLOOD",
-        "SHOOTING"
+        "SHOP",
+        "SKATE",
+        "PLAN",
+        "WAY",
+        "SIDE"
       ]
     ],
     "start": [
-      0,
-      0
+      3,
+      1
     ],
     "end": [
       3,
@@ -22473,170 +22267,51 @@
     ],
     "solution": [
       [
-        0,
-        0
-      ],
-      [
-        0,
+        3,
         1
       ],
       [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        1,
-        4
+        3,
+        0
       ],
       [
         2,
-        4
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
       ],
       [
         3,
-        4
-      ]
-    ],
-    "connections": [
-      [
-        "FORE",
-        "FINGER"
+        2
       ],
       [
-        "FINGER",
-        "TIP"
+        3,
+        3
       ],
-      [
-        "TIP",
-        "TOE"
-      ],
-      [
-        "TOE",
-        "HOLD"
-      ],
-      [
-        "HOLD",
-        "UP"
-      ],
-      [
-        "UP",
-        "TOWN"
-      ],
-      [
-        "TOWN",
-        "SHIP"
-      ],
-      [
-        "SHIP",
-        "WRECK"
-      ],
-      [
-        "WRECK",
-        "AGE"
-      ]
-    ]
-  },
-  "2026-12-29": {
-    "grid": [
-      [
-        "COUNTRY",
-        "TEA",
-        "ARM",
-        "SCHOOL",
-        "CASE"
-      ],
-      [
-        "LAND",
-        "STEP",
-        "DOOR",
-        "OUT",
-        "DUST"
-      ],
-      [
-        "STAIRS",
-        "THRESH",
-        "BOARD",
-        "WALK",
-        "PASS"
-      ],
-      [
-        "TAP",
-        "DANCE",
-        "FLOOR",
-        "WOLF",
-        "SCORE"
-      ],
-      [
-        "WIRE",
-        "LIST",
-        "RISE",
-        "JUKE",
-        "TAIL"
-      ]
-    ],
-    "start": [
-      4,
-      0
-    ],
-    "end": [
-      1,
-      1
-    ],
-    "solution": [
       [
         4,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
         3
       ],
       [
-        1,
-        3
+        4,
+        4
       ],
       [
-        1,
-        2
-      ],
-      [
-        1,
-        1
+        3,
+        4
       ]
     ],
     "connections": [
+      [
+        "BARB",
+        "WIRE"
+      ],
       [
         "WIRE",
         "TAP"
@@ -22659,173 +22334,54 @@
       ],
       [
         "WALK",
-        "OUT"
-      ],
-      [
-        "OUT",
-        "DOOR"
-      ],
-      [
-        "DOOR",
-        "STEP"
-      ]
-    ]
-  },
-  "2026-12-30": {
-    "grid": [
-      [
-        "CLIP",
-        "PACK",
-        "SPEED",
-        "HILL",
-        "NAIL"
-      ],
-      [
-        "DOWN",
-        "SURF",
-        "SNAP",
-        "SHOW",
-        "BRIDGE"
-      ],
-      [
-        "MARK",
-        "BOOK",
-        "COAT",
-        "NIP",
-        "STRANGLE"
-      ],
-      [
-        "LAMP",
-        "WORK",
-        "HOUSE",
-        "TOOL",
-        "HOLE"
-      ],
-      [
-        "POST",
-        "MAN",
-        "POWER",
-        "LASH",
-        "WRITING"
-      ]
-    ],
-    "start": [
-      3,
-      0
-    ],
-    "end": [
-      1,
-      0
-    ],
-    "solution": [
-      [
-        3,
-        0
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        1,
-        0
-      ]
-    ],
-    "connections": [
-      [
-        "LAMP",
-        "POST"
-      ],
-      [
-        "POST",
-        "MAN"
-      ],
-      [
-        "MAN",
-        "POWER"
-      ],
-      [
-        "POWER",
-        "HOUSE"
-      ],
-      [
-        "HOUSE",
-        "WORK"
-      ],
-      [
-        "WORK",
-        "BOOK"
-      ],
-      [
-        "BOOK",
-        "MARK"
-      ],
-      [
-        "MARK",
-        "DOWN"
-      ]
-    ]
-  },
-  "2026-12-31": {
-    "grid": [
-      [
-        "RIGHT",
-        "DIP",
-        "NET",
-        "SET",
-        "MAT"
-      ],
-      [
-        "HAND",
-        "SHOE",
-        "CURB",
-        "MOON",
-        "BENCH"
-      ],
-      [
-        "RAIL",
-        "SUPER",
-        "OFFICE",
-        "FRAME",
-        "TOWER"
+        "WAY"
       ],
       [
         "WAY",
-        "SIDE",
-        "BAR",
-        "BELL",
-        "BOY"
+        "SIDE"
       ],
       [
-        "LACE",
-        "FREE",
-        "PROOF",
-        "MASTER",
-        "SCOUT"
+        "SIDE",
+        "BAR"
+      ]
+    ]
+  },
+  "2026-12-27": {
+    "grid": [
+      [
+        "NORTH",
+        "BERRY",
+        "HOG",
+        "SAIL",
+        "GRANOLA"
+      ],
+      [
+        "STAR",
+        "SET",
+        "CAR",
+        "COOK",
+        "GREEN"
+      ],
+      [
+        "FISH",
+        "SNAP",
+        "CUFF",
+        "SCREEN",
+        "CUTTER"
+      ],
+      [
+        "NET",
+        "CANDY",
+        "CLIP",
+        "PICTURE",
+        "TOE"
+      ],
+      [
+        "WORK",
+        "BOOK",
+        "MARK",
+        "DOWN",
+        "TOWN"
       ]
     ],
     "start": [
@@ -22834,7 +22390,7 @@
     ],
     "end": [
       4,
-      3
+      4
     ],
     "solution": [
       [
@@ -22854,8 +22410,123 @@
         0
       ],
       [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "connections": [
+      [
+        "NORTH",
+        "STAR"
+      ],
+      [
+        "STAR",
+        "FISH"
+      ],
+      [
+        "FISH",
+        "NET"
+      ],
+      [
+        "NET",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "BOOK"
+      ],
+      [
+        "BOOK",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ]
+    ]
+  },
+  "2026-12-28": {
+    "grid": [
+      [
+        "GROUND",
+        "BUNK",
+        "FLAT",
+        "HOLDER",
+        "CRAN"
+      ],
+      [
+        "TREE",
+        "GOLF",
+        "ICE",
+        "LINK",
+        "SPEED"
+      ],
+      [
+        "HOP",
+        "NEWS",
+        "MADE",
+        "SNOW",
+        "OFF"
+      ],
+      [
+        "WRECK",
+        "PRINT",
+        "DOOR",
+        "BELL",
+        "MASTER"
+      ],
+      [
+        "DRIVE",
+        "OUT",
+        "BACK",
+        "BOY",
+        "SCOUT"
+      ]
+    ],
+    "start": [
+      2,
+      1
+    ],
+    "end": [
+      3,
+      4
+    ],
+    "solution": [
+      [
+        2,
+        1
+      ],
+      [
         3,
         1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
       ],
       [
         3,
@@ -22866,41 +22537,37 @@
         3
       ],
       [
-        3,
-        4
-      ],
-      [
-        4,
-        4
-      ],
-      [
         4,
         3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        4
       ]
     ],
     "connections": [
       [
-        "RIGHT",
-        "HAND"
+        "NEWS",
+        "PRINT"
       ],
       [
-        "HAND",
-        "RAIL"
+        "PRINT",
+        "OUT"
       ],
       [
-        "RAIL",
-        "WAY"
+        "OUT",
+        "BACK"
       ],
       [
-        "WAY",
-        "SIDE"
+        "BACK",
+        "DOOR"
       ],
       [
-        "SIDE",
-        "BAR"
-      ],
-      [
-        "BAR",
+        "DOOR",
         "BELL"
       ],
       [
@@ -22914,6 +22581,379 @@
       [
         "SCOUT",
         "MASTER"
+      ]
+    ]
+  },
+  "2026-12-29": {
+    "grid": [
+      [
+        "STAGE",
+        "HOUSE",
+        "HOLD",
+        "UP",
+        "PACK"
+      ],
+      [
+        "KILL",
+        "DOG",
+        "WATCH",
+        "RIGHT",
+        "BASKET"
+      ],
+      [
+        "WOLF",
+        "LADDER",
+        "VINE",
+        "HAND",
+        "BALL"
+      ],
+      [
+        "MATE",
+        "BLOCK",
+        "TEAM",
+        "LAND",
+        "PARK"
+      ],
+      [
+        "FLOOD",
+        "CHAIR",
+        "HOME",
+        "MOON",
+        "MILL"
+      ]
+    ],
+    "start": [
+      1,
+      2
+    ],
+    "end": [
+      3,
+      3
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "WATCH",
+        "DOG"
+      ],
+      [
+        "DOG",
+        "HOUSE"
+      ],
+      [
+        "HOUSE",
+        "HOLD"
+      ],
+      [
+        "HOLD",
+        "UP"
+      ],
+      [
+        "UP",
+        "RIGHT"
+      ],
+      [
+        "RIGHT",
+        "HAND"
+      ],
+      [
+        "HAND",
+        "BALL"
+      ],
+      [
+        "BALL",
+        "PARK"
+      ],
+      [
+        "PARK",
+        "LAND"
+      ]
+    ]
+  },
+  "2026-12-30": {
+    "grid": [
+      [
+        "MEET",
+        "CASE",
+        "BULB",
+        "TEXT",
+        "FRUIT"
+      ],
+      [
+        "DROP",
+        "BY",
+        "WATER",
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "LUCK",
+        "BENCH",
+        "MEAT",
+        "SCHOOL",
+        "TOWN"
+      ],
+      [
+        "JUNK",
+        "ROOM",
+        "STOOL",
+        "WAY",
+        "HALL"
+      ],
+      [
+        "WIND",
+        "TUG",
+        "STEP",
+        "SIDE",
+        "LOFT"
+      ]
+    ],
+    "start": [
+      1,
+      2
+    ],
+    "end": [
+      3,
+      2
+    ],
+    "solution": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "connections": [
+      [
+        "WATER",
+        "MARK"
+      ],
+      [
+        "MARK",
+        "DOWN"
+      ],
+      [
+        "DOWN",
+        "TOWN"
+      ],
+      [
+        "TOWN",
+        "HALL"
+      ],
+      [
+        "HALL",
+        "WAY"
+      ],
+      [
+        "WAY",
+        "SIDE"
+      ],
+      [
+        "SIDE",
+        "STEP"
+      ],
+      [
+        "STEP",
+        "STOOL"
+      ]
+    ]
+  },
+  "2026-12-31": {
+    "grid": [
+      [
+        "BACK",
+        "FIRE",
+        "WORK",
+        "PLACE",
+        "WALL"
+      ],
+      [
+        "OUT",
+        "CAKE",
+        "ISLAND",
+        "HOLDER",
+        "SEA"
+      ],
+      [
+        "TIME",
+        "LIGHT",
+        "DESERT",
+        "WARD",
+        "LOOP"
+      ],
+      [
+        "BED",
+        "VOICE",
+        "CLASS",
+        "POST",
+        "STORM"
+      ],
+      [
+        "FLOWER",
+        "WILD",
+        "SPRING",
+        "TOWER",
+        "HAM"
+      ]
+    ],
+    "start": [
+      4,
+      1
+    ],
+    "end": [
+      1,
+      3
+    ],
+    "solution": [
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "connections": [
+      [
+        "WILD",
+        "FLOWER"
+      ],
+      [
+        "FLOWER",
+        "BED"
+      ],
+      [
+        "BED",
+        "TIME"
+      ],
+      [
+        "TIME",
+        "OUT"
+      ],
+      [
+        "OUT",
+        "BACK"
+      ],
+      [
+        "BACK",
+        "FIRE"
+      ],
+      [
+        "FIRE",
+        "WORK"
+      ],
+      [
+        "WORK",
+        "PLACE"
+      ],
+      [
+        "PLACE",
+        "HOLDER"
       ]
     ]
   }
